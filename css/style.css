@@ -41,6 +41,8 @@ nav div li .nav-link a{
 	padding-left:50px;
 	padding-right:50px;
     padding-bottom:10px;
+	border-radius: 50px;
+	font-size: 25px;
 }
 
 /* Wrapper */
