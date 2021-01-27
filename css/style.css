@@ -45,6 +45,24 @@ nav div li .nav-link a{
 	font-size: 25px;
 }
 
+.parent {
+  position: inline;
+  top: 0;
+  left: 0;
+}
+.img-1 {
+  position: top;
+  top: 0;
+  left: 0;
+  size: contain;
+}
+.img-2 {
+  position: absolute;
+  top: 0px;
+  left: 20%;
+  max-width: 60%
+}
+
 /* Wrapper */
 .icon-button {
 	background-color: white;
