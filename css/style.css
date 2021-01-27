@@ -36,6 +36,13 @@ nav div li .nav-link a{
   	background: rgba(213, 207, 255, 0.8);
 }
 
+.btn-huge{
+    padding-top:10px;
+	padding-left:50px;
+	padding-right:50px;
+    padding-bottom:10px;
+}
+
 /* Wrapper */
 .icon-button {
 	background-color: white;
