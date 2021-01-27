@@ -17,8 +17,22 @@ nav div li .nav-link a{
   margin-left: 400px, none;
   background-attachment: scroll, scroll;
 }
- 
- 
+.card-footer {
+  background-image:  url("../img/footer.png");
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 1550px; 
+}
+.card-footer img {
+    left: 0;
+    bottom: 0;
+}
+
+.jumbo-form{
+  	background: rgba(213, 207, 255, 0.4);
+}
+
 /* Wrapper */
 .icon-button {
 	background-color: white;
