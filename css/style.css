@@ -298,14 +298,11 @@ nav div li .nav-link a{
 }
 /* DNA */
 
-
-
 #dna div {
   position: relative;
-  top: auto;
   left: auto;
-  width: 2px;
-  height: 40px;
+  width: 3px;
+  height: 100px;
   margin-top: auto;
   background-color: purple;
   float: left;
@@ -333,7 +330,7 @@ nav div li .nav-link a{
   right: -4px;
   height: 10px;
   background-color: rebeccapurple;
-  border-radius: 5px;
+  border-radius: 8px;
   animation: rotation 4s linear infinite reverse;
   z-index: 1;
 }
