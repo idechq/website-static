@@ -32,6 +32,9 @@ nav div li .nav-link a{
 .jumbo-form{
   	background: rgba(213, 207, 255, 0.4);
 }
+.form-control{
+  	background: rgba(213, 207, 255, 0.8);
+}
 
 /* Wrapper */
 .icon-button {
