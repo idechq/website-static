@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 /* Background image*/
-h1 { 
+h1 {
 	color: #2a206a;
 	font-size: 400%;
 }
-nav div li .nav-link a{ 
+nav div li .nav-link a{
 	color: #2a206a;
 	font-size: 100%;
 }
@@ -22,9 +22,21 @@ nav div li .nav-link a{
   background-position: relative;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 1550px; 
+  background-size: 1550px;
 }
 .card-footer img {
+    left: 0;
+    bottom: 0;
+}
+
+.card-footer2 {
+  background-image:  url("../img/footer2.png");
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 1550px;
+}
+.card-footer2 img {
     left: 0;
     bottom: 0;
 }
@@ -224,7 +236,7 @@ nav div li .nav-link a{
 	  width: 1.6rem;
   }
   .pinterest {
-   display: none; 
+   display: none;
   }
 
 }
@@ -238,7 +250,7 @@ nav div li .nav-link a{
   background: #ddd;
 }
 
-@media (max-width: 539px){ 
+@media (max-width: 539px){
   .sblogos { height: 300px; }
 }
 
@@ -278,7 +290,7 @@ nav div li .nav-link a{
 .sblogos__row,
 .sblogos__col,
 .sblogos__link,
-.sblogos__link:before { 
+.sblogos__link:before {
   height: 100%;
 }
 
@@ -671,3 +683,24 @@ nav div li .nav-link a{
   }
 }
 
+/* List styles */
+
+ul.textlist1{
+	list-style-position: outside;
+  margin: 0em;
+  padding: 0em;
+}
+
+ul li.item-style1::marker{
+	content: "●";
+  color: purple;
+}
+
+ul li.item-style1{
+	padding-left: 2em;
+	margin: 0 0 12px 0;
+}
+
+</style>
+</head>
+<body>
