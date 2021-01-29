@@ -1,5 +1,35 @@
 # Changelog
 
+## Unreleased
+- Hyperlinks on `pages/calendar.html` need to link to the right pages
+- A not-so-sharp color for Table Caption "Important Note"
+- (To be fixed by Yinan) Footer image is not covering RHS when site enlarged to large screens. Happens to all pages
+
+## 2021-01-29 11:24 [Trevor]
+
+### `css/style.css`
+#### Added
+- `th.list-col-1`
+- `.link-style-1`, `.link-style-1:hover`
+
+### `pages/index.html`
+#### Fixed
+- Hyperlinks to `calendar.html` and `requirements.html`
+
+### `pages/about_us.html`
+#### Fixed
+- Hyperlinks to `tracks_and_awards.html` and `requirements.html`
+
+### `pages/calendar.html`
+#### Added
+- Completed page with table and dates
+- Hyperlinks to Requirements page #Report and #Wiki
+
+### `pages/requirements.html`
+#### Added
+- Completed page with texts
+
+
 ## 2021-01-28 03:44 [Trevor]
 
 ### `pages/about_us.html`
@@ -12,7 +42,7 @@
 #### Changed
 - Title "Committee members" changed to "Executive Committee"
 
-###`css/style.css`
+### `css/style.css`
 #### Added
 - `.card-footer2`
 - `.card-footer2 img`
@@ -20,6 +50,6 @@
 - `ul li.item-style1::marker`
 - `ul li.item-style1`
 
-### `img`
+### `img/`
 #### Added
 - `footer2.png`
