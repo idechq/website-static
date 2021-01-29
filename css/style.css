@@ -715,6 +715,19 @@ ul li.item-style1{
 	margin: 0 0 12px 0;
 }
 
+th.list-col-1{
+	text-indent: 1.7em;
+}
+
+.link-style-1{
+	color: #7A5FBC;
+	font-weight: bold;
+}
+
+.link-style-1:hover{
+	color: #926ABA;
+}
+
 </style>
 </head>
 <body>
