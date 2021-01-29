@@ -12,7 +12,7 @@
 #### Changed
 - Title "Committee members" changed to "Executive Committee"
 
-###`css/style.css`
+### `css/style.css`
 #### Added
 - `.card-footer2`
 - `.card-footer2 img`
@@ -20,6 +20,6 @@
 - `ul li.item-style1::marker`
 - `ul li.item-style1`
 
-### `img`
+### `img/`
 #### Added
 - `footer2.png`

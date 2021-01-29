@@ -12,10 +12,24 @@ nav div li .nav-link a{
 .title-jumbo {
   background-image:  url("../img/hand.png"), url("../img/tree.png");
   background-size: 600px, 1800px;
-  background-position: right top,top;
+  background-position: right, top;
   background-repeat: no-repeat;
-  margin-left: 400px, none;
   background-attachment: scroll, scroll;
+}
+@media (max-width: 1024px) {
+  .title-jumbo {
+      background-size: 500px, 1800px;
+  }
+}
+@media (max-width: 768px) {
+  .title-jumbo {
+      background-size: 300px, 1800px;
+  }
+}
+@media (max-width: 500px) {
+  .title-jumbo {
+      background-size: 250px, 1800px;
+  }
 }
 .card-footer {
   background-image:  url("../img/footer.png");
