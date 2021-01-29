@@ -5,6 +5,16 @@ h1 {
 	color: #2a206a;
 	font-size: 400%;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 300%;
+  }
+}
+@media (max-width:500px) {
+  h1 {
+    font-size: 200%;
+  }
+}
 nav div li .nav-link a{
 	color: #2a206a;
 	font-size: 100%;
@@ -36,7 +46,7 @@ nav div li .nav-link a{
   background-position: relative;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 1550px;
+  background-size: 100%;
 }
 .card-footer img {
     left: 0;
@@ -48,7 +58,7 @@ nav div li .nav-link a{
   background-position: relative;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 1550px;
+  background-size: 100%;
 }
 .card-footer2 img {
     left: 0;
@@ -63,12 +73,19 @@ nav div li .nav-link a{
 }
 
 .btn-huge{
-    padding-top:10px;
+  padding-top:10px;
 	padding-left:50px;
 	padding-right:50px;
-    padding-bottom:10px;
+  padding-bottom:10px;
 	border-radius: 50px;
 	font-size: 25px;
+}
+@media (max-width: 420px) {
+  .btn-huge{
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 20px;
+  }
 }
 
 .parent {
