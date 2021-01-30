@@ -5,7 +5,7 @@
 - Hyperlinks on `pages/details_for_registration.html` need to link to the registration page
 - A not-so-sharp color for Table Caption "Important Note"
 
-## 2021-01-30 13:50 [Trevor]
+## 2021-01-30 14:50 [Trevor]
 
 ### `css/style.css`
 #### Added
