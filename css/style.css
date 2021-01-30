@@ -699,24 +699,42 @@ nav div li .nav-link a{
 
 /* List styles */
 
-ul.textlist1{
+.text-list-1{ /* lists of texts with multiple lines */
 	list-style-position: outside;
   margin: 0em;
-  padding: 0em;
+  padding-left: 2em;
 }
 
-ul li.item-style1::marker{
+.text-list-2{ /* Event on "Calendar" page */
+	list-style-position: outside;
+  margin: 0em;
+  padding-left: 1em;
+}
+
+.text-list-3{ /*  nested lists */
+	list-style-position: outside;
+  margin: 0em;
+  padding-left: 3em;
+}
+
+.item-style-1::marker{ /*  most unordered list items */
 	content: "●";
   color: purple;
 }
 
-ul li.item-style1{
+.item-style-1{ /*  most unordered list items */
 	padding-left: 2em;
-	margin: 0 0 12px 0;
+	margin: 0 0 0.75em 0;
 }
 
-th.list-col-1{
-	text-indent: 1.7em;
+.item-style-2{ /* nested lists */
+	padding-left: 2em;
+	margin: 0 0 0.5em 0;
+}
+
+.item-style-3{ /*  ordered list items for instructions */
+	padding-left: 2em;
+	margin: 0 0 4em 0;
 }
 
 .link-style-1{
@@ -726,6 +744,13 @@ th.list-col-1{
 
 .link-style-1:hover{
 	color: #926ABA;
+}
+
+.alert { /* Alert box on "Details for Registration" page*/
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
 }
 
 </style>
