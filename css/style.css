@@ -710,33 +710,73 @@ nav div li .nav-link a{
 
 /* List styles */
 
-ul.textlist1{
+.text-list-1{ /* lists of texts with multiple lines */
 	list-style-position: outside;
   margin: 0em;
-  padding: 0em;
+  padding-left: 1em;
 }
 
-ul li.item-style1::marker{
+.text-list-2{ /* Event on "Calendar" page */
+	list-style-position: outside;
+  margin: 0em;
+  padding-left: 1em;
+}
+
+.text-list-3{ /* nested lists */
+	list-style-position: outside;
+  margin: 0em;
+  padding-left: 3em;
+}
+
+.item-style-1::marker{ /* most unordered list items */
 	content: "●";
   color: purple;
 }
 
-ul li.item-style1{
+.item-style-1{ /* unordered list items with long texts */
 	padding-left: 2em;
-	margin: 0 0 12px 0;
+	margin: 0 0 0.75em 0;
 }
 
-th.list-col-1{
-	text-indent: 1.7em;
+.item-style-2{ /* nested lists */
+	padding-left: 1em;
+	margin: 0 0 0.5em 0;
 }
 
-.link-style-1{
+.item-style-3{ /* ordered list items for instructions with subsections */
+	padding-left: 1em;
+	margin: 0 0 4em 0;
+}
+
+.item-style-4{ /* general ordered list items */
+	padding-left: 1em;
+	margin: 0 0 0.75em 0;
+}
+
+.item-style-5{ /* similar to item-style-1, but for unordered list items that need compact displays on small screens */
+	padding-left: 1em;
+	margin: 0 0 0.75em 0;
+}
+
+.item-style-5::marker{ /* similar to item-style-1, but for unordered list items that need compact displays on small screens */
+	content: "●";
+  color: purple;
+}
+
+.link-style-1{ /* for most hyperlinks including TOC links */
 	color: #7A5FBC;
 	font-weight: bold;
 }
 
-.link-style-1:hover{
+.link-style-1:hover{ /* for most hyperlinks including TOC links */
 	color: #926ABA;
+}
+
+.alert { /* Alert box on "Details for Registration" page*/
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
 }
 
 </style>
