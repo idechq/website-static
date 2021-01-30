@@ -5,6 +5,17 @@ h1 {
 	color: #2a206a;
 	font-size: 400%;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 300%;
+  }
+}
+@media (max-width:500px) {
+  h1 {
+    font-size: 200%;
+  }
+}
+
 nav div li .nav-link a{
 	color: #2a206a;
 	font-size: 100%;
