@@ -6,7 +6,7 @@
 - A not-so-sharp color for Table Caption "Important Note"
 - (To be fixed by Yinan) Footer image is not covering RHS when site enlarged to large screens. Happens to all pages
 
-## 2021-01-30 XX:XX [Trevor]
+## 2021-01-30 05:04 [Trevor]
 
 ### `css/style.css`
 #### Added
