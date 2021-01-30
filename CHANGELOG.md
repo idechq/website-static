@@ -5,6 +5,13 @@
 - Hyperlinks on `pages/details_for_registration.html` need to link to the registration page
 - A not-so-sharp color for Table Caption "Important Note"
 
+## 2021-01-30 15:00 [Trevor]
+### `index.html`
+#### Added
+- Hyperlink to `pages/details_for_registration.html` in menu bar
+#### Fixed
+- Hyperlink to `pages/ethics_biosafety_and_biosecurity.html` in menu bar
+
 ## 2021-01-30 14:50 [Trevor]
 
 ### `css/style.css`
