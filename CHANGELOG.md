@@ -5,10 +5,10 @@
 - Hyperlinks on `pages/details_for_registration.html` need to link to the registration page
 - A not-so-sharp color for Table Caption "Important Note"
 
-## 2021-01-31 08:11 [Trevor]
+## 2021-01-31 18:40 [Trevor]
 ### `pages/details_for_registration.html`
 #### Added
-- Privacy Policy texts
+- Privacy Policy (ver.2) texts
 
 ## 2021-01-30 22:13 [Trevor]
 ### `index.html`, `pages/about_us.html`, `pages/calendar.html`, `pages/details_for_registration.html`, `pages/requirements.html`, `pages/tracks_and_awards.html`
