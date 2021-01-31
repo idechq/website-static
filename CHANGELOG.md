@@ -5,6 +5,11 @@
 - Hyperlinks on `pages/details_for_registration.html` need to link to the registration page
 - A not-so-sharp color for Table Caption "Important Note"
 
+## 2021-01-31 23:47 [Trevor]
+### `index.html`
+#### Changed
+- Image sizes for Requirements and Tracks
+
 ## 2021-01-31 18:40 [Trevor]
 ### `pages/details_for_registration.html`
 #### Added
