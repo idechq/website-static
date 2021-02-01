@@ -10,7 +10,8 @@
 ## 2021-02-1 03:14 [Trevor]
 ### `index.html`
 #### Added
-- Descriptive texts for the 3 Tracks
+- Descriptions for the 3 Tracks
+- Descriptions for the 3 Award categories
 - Hyperlink of "Ethics biosafety and Biosecurity" to the "Read more" button in the relevant section
 - Spaces between sections
 #### Changed
@@ -19,8 +20,9 @@
 - Track "Chassis" changed to "Genomes", as requested
 - Hyperlinks for "View details" under "Awards"
 - "Register Now!" button text -> "Get ready to Register!", and linked to `page/details_for_registration.html`
+- Changed the subtitle of "promoting irrational synthetic biology" to "Nurturing the next generation of experts to revolutionize mutagenesis". This is the new placeholder text
 #### Removed
-- "WHO WE ARE" section. It was meant to convey the message that we want to build a community. This message is now incoporated under "COMPETITION SUMMARY"
+- "WHO WE ARE" section. It was meant to convey the message that we want to build a community. This message is now incorporated under "COMPETITION SUMMARY"
 
 ### `pages/tracks_and_awards.html`
 #### Changed
