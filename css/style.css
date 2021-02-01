@@ -779,7 +779,7 @@ nav div li .nav-link a{
   margin-bottom: 15px;
 }
 
-.img-thumbnail { /* about_us page headshots*/
+.img-thumbnail { /* about_us page headshots */
   padding: 0.3rem;
   background-color: #f8f9fa;
   border: 3px solid #325475;
@@ -787,6 +787,10 @@ nav div li .nav-link a{
   max-width: 90%;
   margin: 1rem;
   margin-bottom: 0.2rem;
+}
+
+.hidden { /* For hiding parts not in use */
+  display: none;
 }
 
 </style>

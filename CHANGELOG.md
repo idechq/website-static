@@ -7,6 +7,16 @@
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-1 13:38 [Trevor]
+
+### `index.html`
+#### Changed
+- Used `hidden` class to hide a section instead of commenting out a section
+
+### `css/style.css`
+#### Added
+- `.hidden` for hiding elements
+
 ## 2021-02-1 07:12 [Trevor]
 ### `pages/about_us.html`
 #### Changed
