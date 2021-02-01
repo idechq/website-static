@@ -1,9 +1,69 @@
 # Changelog
 
 ## Unreleased
-- Hyperlinks on `pages/calendar.html` need to link to the right pages
-- Hyperlinks on `pages/details_for_registration.html` need to link to the registration page
 - A not-so-sharp color for Table Caption "Important Note"
+- New illustrations for "COMPEITION SUMMARY" on `index.html`
+- Illustrations for "AWARDS" on `index.html`
+- Comment out Search box on all pages if the function is not available soon
+- Feedback form needs to be functional
+
+## 2021-02-1 07:12 [Trevor]
+### `pages/about_us.html`
+#### Changed
+- Increased HQ member job titles' font size from `0.5em` to `0.8em`
+
+## 2021-02-1 03:14 [Trevor]
+### `index.html`
+#### Added
+- Descriptions for the 3 Tracks
+- Descriptions for the 3 Award categories
+- Hyperlink of "Ethics biosafety and Biosecurity" to the "Read more" button in the relevant section
+- Spaces between sections
+#### Changed
+- Redesigned the "OUR MISSION" section and turn it into "COMPEITION SUMMARY", and created new texts to better describe what the entire competition is about. This section will receive new illustrations.
+- Rearranged the orders for different sections. Moved "REQUIREMENTS" to 2nd last time section and "Ethics, Biosafety and Biosecurity" section to the bottom.
+- Track "Chassis" changed to "Genomes", as requested
+- Hyperlinks for "View details" under "Awards"
+- "Register Now!" button text -> "Get ready to Register!", and linked to `page/details_for_registration.html`
+- Changed the subtitle of "promoting irrational synthetic biology" to "Nurturing the next generation of experts to revolutionize mutagenesis". This is the new placeholder text
+#### Removed
+- "WHO WE ARE" section. It was meant to convey the message that we want to build a community. This message is now incorporated under "COMPETITION SUMMARY"
+
+### `pages/tracks_and_awards.html`
+#### Changed
+- Track "Chassis" changed to "Genomes", as requested
+- Descriptions under the 3 tracks, as requested
+#### Added
+- Anchors for the 5 award types headings, for links from `index.html` and `calendar.html`
+
+### `pages/details_for_registration.html`
+#### Added
+- Registration open date under "What do you need?" heading and "(1) Register your personal account"
+#### Changed
+- The "Register Now" button -> "Registration Opens on Mar 1", with hyperlink removed, and button moved under "(2) Register your team"
+#### Removed
+- Hyperlink in the sentence "As a first step, please register your personal account"
+- Hyperlink for biosaftey consent form
+
+### `pages/calendar.html`
+#### Added
+- Hyperlink to "Details you need for Registration" for "Registration opens"
+- Hyperlink to "Track Plus: Challenge" for "Challenge releases"
+#### Removed
+- Hyperlinks that currently have no destinations
+
+### `pages/requirements.html`
+#### Added
+- Hyperlinks to TOC to link to headings
+
+### Bulk menu link change on `index.html` and all child pages
+#### Changed
+- Menu link text "Register for iDEC 2021" -> "Register for iDEC 2021 (open on Mar 1)"
+
+## 2021-01-31 23:47 [Trevor]
+### `index.html`
+#### Changed
+- Image sizes for Requirements and Tracks
 
 ## 2021-01-31 18:40 [Trevor]
 ### `pages/details_for_registration.html`
