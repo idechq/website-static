@@ -7,6 +7,11 @@
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-1 07:12 [Trevor]
+### `pages/about_us.html`
+#### Changed
+- Increased HQ member job titles' font size from `0.5em` to `0.8em`
+
 ## 2021-02-1 03:14 [Trevor]
 ### `index.html`
 #### Added
