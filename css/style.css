@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-/* Background image*/
+
 h1 {
 	color: #2a206a;
 	font-size: 400%;
@@ -20,6 +20,7 @@ nav div li .nav-link a{
 	color: #2a206a;
 	font-size: 100%;
 }
+/* Background image*/
 .title-jumbo {
   background-image:  url("../img/hand.png"), url("../img/tree.png");
   background-size: 600px, 1800px;
