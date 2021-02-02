@@ -7,6 +7,11 @@
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-02 12:35 [Trevor]
+### `calendar.html`, `details_for_registration.html`, `requirements.html`
+#### Fixed
+- Forbidden `&` character
+
 ## 2021-02-1 07:12 [Trevor]
 ### `pages/about_us.html`
 #### Changed
