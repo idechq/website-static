@@ -7,10 +7,19 @@
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-03 07:56 [Trevor]
+### `pages/about_us.html`, `pages/details_for_registration.html`, ### `pages/tracks_and_awards.html`
+#### Fixed
+- Typos and mistakes as spotted by Yang
+
+### `css/style.css`
+#### Added
+- `.colored-text-1`, for coloring dates as requested by Yang
+
 ## 2021-02-03 07:00 [Trevor]
 ### `pages/details_for_registration.html`
 #### Fixed
-- An extra `</ol> ` that kill the alphabets in the ordered list under Privacy Policy was removed
+- An extra `</ol>` that kill the alphabets in the ordered list under Privacy Policy was removed
 - Missing registration open time for menu bar item "Register for iDEC 2021"
 
 ### `pages/about_us.html`
