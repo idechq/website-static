@@ -28,6 +28,51 @@ nav div li .nav-link a{
   background-repeat: no-repeat;
   background-attachment: scroll, scroll;
 }
+.timeline-idec {
+  background-image:  url("../img/timeline.svg");
+  padding-left: 10px;
+  background-size: 850px;
+  background-position: 0px -110px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.timeline-dna-1 {
+  padding-top: 0px;
+  padding-left: 160px;
+}
+.timeline-dna-2 {
+  padding-left: 160px;
+}
+.timeline-dna-3 {
+  padding-top: 50px;
+  padding-left: 160px;
+}
+span:before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 26px;
+  margin-bottom: -8px;
+  margin-right: 2px;
+  padding-top: 0px;
+}
+.time-blue:before {
+  background: #0275d8;
+}
+.time-green:before {
+  background: #5cb85c;
+}
+.time-red:before {
+  background: #d9534f;
+}
+.time-yellow:before {
+  background: #f0ad4e;
+}
+.time-purple:before {
+  background: #4B0082;
+}
+
+
 @media (max-width: 1024px) {
   .title-jumbo {
       background-size: 500px, 1800px;
@@ -429,6 +474,42 @@ nav div li .nav-link a{
   border-radius: 8px;
   animation: rotation 4s linear infinite reverse;
   z-index: 1;
+}
+#dna div:nth-child(34) {
+  animation-delay: -54.95s;
+}
+#dna div:nth-child(34)::before {
+  animation-delay: -54.95s;
+}
+#dna div:nth-child(34)::after {
+  animation-delay: -54.95s;
+}
+#dna div:nth-child(33) {
+  animation-delay: -55.05s;
+}
+#dna div:nth-child(33)::before {
+  animation-delay: -55.05s;
+}
+#dna div:nth-child(33)::after {
+  animation-delay: -55.05s;
+}
+#dna div:nth-child(32) {
+  animation-delay: -55.20s;
+}
+#dna div:nth-child(32)::before {
+  animation-delay: -55.20s;
+}
+#dna div:nth-child(32)::after {
+  animation-delay: -55.20s;
+}
+#dna div:nth-child(31) {
+  animation-delay: -55.35s;
+}
+#dna div:nth-child(31)::before {
+  animation-delay: -55.35s;
+}
+#dna div:nth-child(31)::after {
+  animation-delay: -55.35s;
 }
 #dna div:nth-child(30) {
   animation-delay: -55.5s;
