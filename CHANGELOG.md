@@ -7,6 +7,31 @@
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-03 07:00 [Trevor]
+### `pages/details_for_registration.html`
+#### Fixed
+- An extra `</ol> ` that kill the alphabets in the ordered list under Privacy Policy was removed
+- Missing registration open time for menu bar item "Register for iDEC 2021"
+
+### `pages/about_us.html`
+#### Changed
+- Hid my profile. I do not have a profile pic and will need 1-2 weeks to get one
+
+### `pages/ethics_biosafety_and_biosecurity.html`
+#### Added
+- Spacing between text sections
+- One space between 2016 and [1]
+#### Changed
+- "Resource" heading to "References" and heading from `<h4>` to `<h2>`
+#### Fixed
+- Layout issues of TOC due to misplace of `</div>`
+#### Removed
+- "On this page" above the TOC, which appears redundant
+
+### All child pages except `pages/calendar.html` and `pages/ethics_biosafety_and_biosecurity.html`
+#### Added
+- Awesome Font icons to headings wherever I can find a relevant and appropriate icon
+
 ## 2021-02-02 12:35 [Trevor]
 ### `calendar.html`, `details_for_registration.html`, `requirements.html`
 #### Fixed
