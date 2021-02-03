@@ -854,14 +854,14 @@ span:before {
 	color: #926ABA;
 }
 
-.alert { /* Alert box on "Details for Registration" page*/
+.alert { /* Alert box on "Details for Registration" page */
   padding: 20px;
   background-color: #f44336; /* Red */
   color: white;
   margin-bottom: 15px;
 }
 
-.img-thumbnail { /* about_us page headshots*/
+.img-thumbnail { /* about_us page headshots */
   padding: 0.3rem;
   background-color: #f8f9fa;
   border: 3px solid #325475;
@@ -871,3 +871,6 @@ span:before {
   margin-bottom: 0.2rem;
 }
 
+.colored-text-1{ /* To color dates as requested by Yang*/
+	color: #7A5FBC; /* should change to a diff color later to avoid confusion with links */
+}
