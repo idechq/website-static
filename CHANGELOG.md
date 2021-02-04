@@ -7,6 +7,10 @@
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-04 12:48 [Trevor]
+### `index.html`
+- Updated image for "Share protocols and knowledge with peers and experts"
+
 ## 2021-02-03 07:56 [Trevor]
 ### `pages/about_us.html`, `pages/details_for_registration.html`, ### `pages/tracks_and_awards.html`
 #### Fixed
