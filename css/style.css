@@ -93,7 +93,7 @@ span:before {
   background-position: relative;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 100%;
+  background-size: cover;
 }
 .card-footer img {
     left: 0;
