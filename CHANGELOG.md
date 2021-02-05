@@ -1,14 +1,26 @@
 # Changelog
 
 ## Unreleased
-- A not-so-sharp color for Table Caption "Important Note"
-- New illustrations for "COMPEITION SUMMARY" on `index.html`
-- Illustrations for "AWARDS" on `index.html`
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-05 04:41 [Trevor]
+### `index.html`
+#### Changed
+- Logo of sponsors from UoE logos to iDEC logos (requested by Yang)
+- "awards" to "Awards" under Awards section (requested by Yang)
+
+### `about_us.html`
+#### Removed
+- Texts that duplicated in footer (requested by Yang)
+
+### `tracks_and_awards.html`
+#### Added
+- Sub-track numbers for the three tracks (requested by Yang)
+
 ## 2021-02-04 12:48 [Trevor]
 ### `index.html`
+#### Changed
 - Updated image for "Share protocols and knowledge with peers and experts"
 
 ## 2021-02-03 07:56 [Trevor]
