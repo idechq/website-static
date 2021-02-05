@@ -4,6 +4,11 @@
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-05 06:35 [Trevor]
+### `index.html`
+#### Changed
+- Timeline to new design
+
 ## 2021-02-05 04:41 [Trevor]
 ### `index.html`
 #### Changed
