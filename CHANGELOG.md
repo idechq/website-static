@@ -1,8 +1,12 @@
 # Changelog
 
 ## Unreleased
-- Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
+
+## 2021-02-05 21:12 [Trevor]
+### `index.html`
+#### Added
+- `<script src="https://hammerjs.github.io/dist/hammer.js"></script>`
 
 ## 2021-02-05 21:12 [Trevor]
 ### All pages
