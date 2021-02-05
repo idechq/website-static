@@ -1047,7 +1047,7 @@ button {
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 750px) {
   .timeline ol,
   .timeline ol li {
     width: auto;
