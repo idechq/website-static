@@ -4,6 +4,11 @@
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-05 21:12 [Trevor]
+### All pages
+#### Changed
+- Set all search bar to be invisible using `class="d-none"`
+
 ## 2021-02-05 20:59 [Trevor]
 ### `css/style.css`
 #### Changed
