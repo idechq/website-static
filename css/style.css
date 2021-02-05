@@ -920,7 +920,6 @@ button {
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
-	/* transform: translateX(-5%); */
 }
 
 .timeline ol {
