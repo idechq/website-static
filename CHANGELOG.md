@@ -9,6 +9,10 @@
 #### Changed
 - Appearance of timeline
 
+### `pages/about_us.html`
+- Added Dr. prefix to Felipe
+- Changed Jiayi Zhen to Jiayi Zeng
+
 ## 2021-02-05 17:43 [Trevor]
 ### `pages/requirements.html`
 #### Changed
