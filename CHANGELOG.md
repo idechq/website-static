@@ -5,11 +5,12 @@
 - Feedback form needs to be functional
 - Bigger boxes for timeline
 
-## 2021-02-05 07:01 [Trevor]
+## 2021-02-05 07:19 [Trevor]
 ### `index.html`
 #### Changed
 - Timeline to new design
 - Responsiveness issues fixed
+- Moved js for timeline into `js/timeline.js` and replaced with `<script src="js/timeline.js"></script>`
 
 ## 2021-02-05 04:41 [Trevor]
 ### `index.html`
