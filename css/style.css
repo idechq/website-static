@@ -920,6 +920,7 @@ button {
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
+	/* transform: translateX(-5%); */
 }
 
 .timeline ol {
@@ -956,12 +957,12 @@ button {
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #1CC283;
+  background: #1CC283;	/* dot on timeline */
 }
 
 .timeline ol li div {
   position: absolute;
-  left: calc(100px);
+  left: calc(100px + 50px);
   width: 280px;
   padding: 15px;
   font-size: 1rem;
@@ -971,7 +972,7 @@ button {
 	border-style: solid;
 	border-color: #2A206A;
 	border-width: 0.2em;
-	/* border-radius: 25px; */
+	border-radius: 40px;
 }
 
 .timeline ol li div::before {
@@ -993,6 +994,7 @@ button {
 .timeline ol li div::before {
   top: 100%;
   border-width: 12px 0 0 16px;
+	transform: translateX(-310%);
   border-color: #2A206A transparent transparent transparent; /* box corner color */
 }
 
