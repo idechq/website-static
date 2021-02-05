@@ -5,6 +5,11 @@
 - Feedback form needs to be functional
 
 ## 2021-02-05 17:43 [Trevor]
+### `pages/requirements.html`
+#### Changed
+- Texts
+
+## 2021-02-05 17:43 [Trevor]
 ### `index.html`
 #### Changed
 - Info for TIMELINE
