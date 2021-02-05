@@ -5,9 +5,14 @@
 - Feedback form needs to be functional
 
 ## 2021-02-05 17:43 [Trevor]
+### Timeline on `index.html`, `css/style.css`
+#### Changed
+- Appearance of timeline
+
+## 2021-02-05 17:43 [Trevor]
 ### `pages/requirements.html`
 #### Changed
-- Texts
+- Minor text edits as required by Yang
 
 ## 2021-02-05 17:43 [Trevor]
 ### `index.html`
