@@ -925,7 +925,7 @@ button {
 .timeline ol {
   font-size: 0;
   width: 100vw;
-  padding: 250px 0 20px 0;
+  padding: 280px 0 20px 0;
   transition: all 1s;
 }
 
@@ -962,7 +962,7 @@ button {
 .timeline ol li div {
   position: absolute;
   left: calc(100px);
-  width: 300px;
+  width: 280px;
   padding: 15px;
   font-size: 1rem;
   white-space: normal;
@@ -1043,9 +1043,11 @@ button {
   .timeline ol,
   .timeline ol li {
     width: auto;
+		padding-top: 0;
+		padding-bottom: 0;
   }
 
-  .timeline ol {
+  .timeline ol div { /* this is the part which renders mobile phone display problem before*/
     padding: 0;
     transform: none !important;
   }
