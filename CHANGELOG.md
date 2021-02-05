@@ -3,14 +3,14 @@
 ## Unreleased
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
-- Bigger boxes for timeline
 
 ## 2021-02-05 07:19 [Trevor]
 ### `index.html`
 #### Changed
-- Timeline to new design
+- Timeline to new design (by Yinan)
 - Responsiveness issues fixed
 - Moved js for timeline into `js/timeline.js` and replaced with `<script src="js/timeline.js"></script>`
+- Increased sizes of cards (by Yinan)
 
 ## 2021-02-05 04:41 [Trevor]
 ### `index.html`

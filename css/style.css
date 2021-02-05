@@ -925,7 +925,7 @@ button {
 .timeline ol {
   font-size: 0;
   width: 100vw;
-  padding: 280px 0 20px 0;
+  padding: 350px 0 20px 0;
   transition: all 1s;
 }
 
@@ -1013,6 +1013,9 @@ button {
   margin-bottom: 8px;
 }
 
+.timeline-card {
+	height: 300px;
+}
 
 /* TIMELINE ARROWS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
