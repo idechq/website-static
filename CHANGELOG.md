@@ -4,6 +4,46 @@
 - Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
+## 2021-02-05 20:59 [Trevor]
+### `css/style.css`
+#### Changed
+- `@media screen and (max-width: 599px)` to `@media screen and (max-width: 750px)`
+#### Fixed
+- `.card-footer {background-size: 100%;}` to `.card-footer {background-size: cover;}`
+
+## 2021-02-05 19:14 [Trevor]
+### Timeline on `index.html`, `css/style.css`
+#### Fixed
+- Timeline location on large screens
+
+## 2021-02-05 18:58 [Trevor]
+### Timeline on `index.html`, `css/style.css`
+#### Changed
+- Appearance of timeline
+
+### `pages/about_us.html`
+- Added Dr. prefix to Felipe
+- Changed Jiayi Zhen to Jiayi Zeng
+
+## 2021-02-05 17:43 [Trevor]
+### `pages/requirements.html`
+#### Changed
+- Minor text edits as required by Yang
+
+## 2021-02-05 17:43 [Trevor]
+### `index.html`
+#### Changed
+- Info for TIMELINE
+- Text for EBB banner
+
+## 2021-02-05 07:19 [Trevor]
+### `index.html`
+#### Changed
+- Timeline to new design (by Yinan)
+- Responsiveness issues fixed
+- Moved js for timeline into `js/timeline.js` and replaced with `<script src="js/timeline.js"></script>`
+- Increased sizes of cards (by Yinan)
+
 ## 2021-02-05 04:41 [Trevor]
 ### `index.html`
 #### Changed
