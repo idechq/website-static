@@ -3,6 +3,11 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-02-06 10:29 [Trevor]
+### `js/timeline.js`
+#### Changed
+- `xScrolling` from 700 to 900. This is needed for very large screens
+
 ## 2021-02-05 21:30 [Trevor]
 ### `js/timeline.js`
 #### Changed
