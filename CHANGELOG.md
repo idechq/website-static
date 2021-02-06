@@ -13,7 +13,7 @@
 #### Changed
 - Set all search bar to be invisible using `class="d-none"`
 
-## 2021-02-05 20:59 [Trevor]
+## 2021-02-05 20:59 [Felipe]
 ### `css/style.css`
 #### Changed
 - `@media screen and (max-width: 599px)` to `@media screen and (max-width: 750px)`
