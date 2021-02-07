@@ -3,6 +3,11 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-02-07 15:16 [Trevor]
+### `details_for_registration.js`
+#### Fixed
+- Privacy Policy F3 extra "3." in list
+
 ## 2021-02-06 10:29 [Trevor]
 ### `js/timeline.js`
 #### Changed
