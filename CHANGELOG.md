@@ -3,6 +3,17 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-02-9 07:52 [Trevor]
+### `index.html`
+#### Changed
+- "Enhance protein functions" to "Enhance biomacromolecule functions"
+- Added spacing between sections
+
+### `pages/about_us.html`
+#### Fixed
+- "Prof. Chen Ye" to "Prof. Ye Chen"
+
+
 ## 2021-02-07 15:16 [Trevor]
 ### `details_for_registration.js`
 #### Fixed
