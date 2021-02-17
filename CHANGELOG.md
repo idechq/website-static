@@ -3,10 +3,13 @@
 ## Unreleased
 - Feedback form needs to be functional
 
-## 2021-02-17 07:52 [Trevor]
+## 2021-02-17 16:31 [Trevor]
 ### `index.html`
 #### Changed
 - New slogan by Dr. Martin Borch Jensen
+### `pages/about_us.html`
+#### Added
+- My own profile picture
 
 ## 2021-02-9 07:52 [Trevor]
 ### `index.html`
