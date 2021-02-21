@@ -3,6 +3,11 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-02-21 16:31 [Trevor]
+### `pages/details_for_registration.html`
+#### Changed
+- "Date of birth" to "Age"
+
 ## 2021-02-17 16:31 [Trevor]
 ### `index.html`
 #### Changed
