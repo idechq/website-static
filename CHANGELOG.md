@@ -3,6 +3,11 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-02-22 00:28 [Trevor]
+### `pages/details_for_registration.html`
+#### Removed
+- Age, information no longer requested from participants.
+
 ## 2021-02-21 16:31 [Trevor]
 ### `pages/details_for_registration.html`
 #### Changed
