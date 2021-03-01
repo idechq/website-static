@@ -1,10 +1,76 @@
 # Changelog
 
 ## Unreleased
-- Comment out Search box on all pages if the function is not available soon
 - Feedback form needs to be functional
 
-## 2021-02-05 20:59 [Trevor]
+## 2021-02-28 23:45 [Trevor]
+### `index.html`
+#### Added
+- Large button linked to reg.idec.io
+### `pages/details_for_registration.html`
+#### Added
+- Link of button to reg.idec.io in middle of the page
+
+## 2021-02-28 23:45 [Chong]
+### All pages
+#### Added
+- Links to reg.idec.io in navbar
+
+## 2021-02-22 00:28 [Trevor]
+### `pages/details_for_registration.html`
+#### Removed
+- Age, information no longer requested from participants.
+
+## 2021-02-21 16:31 [Trevor]
+### `pages/details_for_registration.html`
+#### Changed
+- "Date of birth" to "Age"
+
+## 2021-02-17 16:31 [Trevor]
+### `index.html`
+#### Changed
+- New slogan by Dr. Martin Borch Jensen
+### `pages/about_us.html`
+#### Added
+- My own profile picture
+
+## 2021-02-9 07:52 [Trevor]
+### `index.html`
+#### Changed
+- "Enhance protein functions" to "Enhance biomacromolecule functions"
+- Added spacing between sections
+
+### `pages/about_us.html`
+#### Fixed
+- "Prof. Chen Ye" to "Prof. Ye Chen"
+
+
+## 2021-02-07 15:16 [Trevor]
+### `details_for_registration.js`
+#### Fixed
+- Privacy Policy F3 extra "3." in list
+
+## 2021-02-06 10:29 [Trevor]
+### `js/timeline.js`
+#### Changed
+- `xScrolling` from 700 to 900. This is needed for very large screens
+
+## 2021-02-05 21:30 [Trevor]
+### `js/timeline.js`
+#### Changed
+- `xScrolling` from 280 to 700
+
+## 2021-02-05 21:12 [Trevor]
+### `index.html`
+#### Added
+- `<script src="https://hammerjs.github.io/dist/hammer.js"></script>`
+
+## 2021-02-05 21:12 [Trevor]
+### All pages
+#### Changed
+- Set all search bar to be invisible using `class="d-none"`
+
+## 2021-02-05 20:59 [Felipe]
 ### `css/style.css`
 #### Changed
 - `@media screen and (max-width: 599px)` to `@media screen and (max-width: 750px)`

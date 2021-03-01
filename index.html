@@ -28,7 +28,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="idec-logo" style="width:40px;"></a>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="idec-logo" style="width:40px;"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -38,7 +38,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="pages/details_for_registration.html" style="color: #2a206a;">Details you need</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#" style="color: #2a206a;">Register for iDEC 2021 (open on Mar 1)</a>
+              <a class="dropdown-item" href="https://reg.idec.io" style="color: #2a206a;">Register for iDEC 2021</a>
             </div>
           </li>
 		  <li class="nav-item"> <a class="nav-link" href="pages/about_us.html" style="color: #2a206a;">About us</a> </li>
@@ -48,7 +48,7 @@
       <li class="nav-item"> <a class="nav-link" href="pages/requirements.html" style="color: #2a206a;">Requirements</a> </li>
       <li class="nav-item"> <a class="nav-link" href="pages/ethics_biosafety_and_biosecurity.html" style="color: #2a206a;">Ethics, Biosafety and Biosecurity</a> </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0 d-none">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
@@ -63,9 +63,10 @@
 			  <h1 class="text-left"><strong>Directed Evolution</strong></h1>
 			  <h1 class="text-left"><strong>Competition</strong></h1>
 			  <h1 class="text-left"><strong>2021</strong></h1>
-              <h4 class="text-center text-muted">Nurturing the next generation of experts to revolutionize mutagenesis</h4>
+        <p>&nbsp;</p>
+              <h4 class="text-center text-muted">This is the way the life begins. Not with a plan but a competition. - Dr. Martin Borch Jensen</h4>
               <p>&nbsp;</p>
-              <p class="text-center"><a class="btn btn-outline-primary btn-lg font-weight-bolder btn-huge" href="pages/details_for_registration.html" role="button">Get ready to Register!</a> </p>
+              <p class="text-center"><a class="btn btn-green btn-outline-primary btn-lg font-weight-bolder btn-huge" href="https://reg.idec.io/" role="button">Register Now</a><span class="btn-divider"></span><a class="btn btn-outline-primary btn-lg font-weight-bolder btn-huge" href="pages/details_for_registration.html" role="button">Registration Details</a> </p>
             </div>
           </div>
         </div>
@@ -78,7 +79,7 @@
           </div>
         </div>
         <div class="container">
-		  <div class="row">
+		  <div class="row mt-4 mb-2">
 			  <div class="col-sm-12 col-lg-12 col-xl-6">
 				<div class="row">
 					<div class="col-sm-6 col-lg-6">
@@ -128,7 +129,7 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 mt-4 mb-2 text-center">
+          <div class="col-sm-12 mt-5 mb-1 text-center">
             <h2>OUR GOALS</h2>
           </div>
         </div>
@@ -163,7 +164,7 @@
           </div>
       </div>
     </div>
-    <div class="container timeline">
+    <div class="container timeline mb-2">
       <ol>
         <li>
           <div class="text-center timeline-card">
@@ -211,7 +212,7 @@
 	<section>
       <div class="container">
 		<div class="row">
-          <div class="col-sm-12 mt-4 mb-2 text-center">
+          <div class="col-sm-12 mt-5 mb-2 text-center">
             <h2>TRACKS</h2>
 			  <p>Compete in one, two or three areas of Directed Evolution</p>
           </div>
@@ -220,7 +221,7 @@
           <div class="col-sm-6 col-lg-4 text-center">
             <h3>Molecules</h3>
             <img src="img/3-1.png" style="width:300px; height:300px;" alt="">
-            <p class="text-muted" style="font-size:1.2em;">Enhance protein functions</p>
+            <p class="text-muted" style="font-size:1.2em;">Enhance biomacromolecule functions</p>
             <p><a class="btn btn-link" href="pages/tracks_and_awards.html#track1">View details »</a></p>
           </div>
           <div class="col-sm-6 col-lg-4 text-center">
@@ -241,7 +242,7 @@
     <section>
         <div class="container">
             <div class="row">
-            <div class="col-sm-12 mt-4 mb-2 text-center">
+            <div class="col-sm-12 mt-5 mb-4 text-center">
               <h2>REQUIREMENTS</h2>
             </div>
           </div>
@@ -392,7 +393,7 @@
 	<section>
 		<div class="container">
 		<div class="row">
-			<div class="col-12 mb-2 text-center">
+			<div class="col-12 mt-5 mb-4 text-center">
 				<h2>AWARDS</h2><span style="color: lightseagreen; font-size: 20px"><i class="fas fa-medal"></i></span>
 			</div>
 			<div class="row">
@@ -620,4 +621,5 @@
 	<script src="js/main.js"></script>
   <script src="js/2a0c96cd0e.js" crossorigin="anonymous"></script>
   <script src="js/timeline.js"></script>
+  <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 </html>
