@@ -3,6 +3,19 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-02-28 23:45 [Trevor]
+### `index.html`
+#### Added
+- Large button linked to reg.idec.io
+### `pages/details_for_registration.html`
+#### Added
+- Link of button to reg.idec.io in middle of the page
+
+## 2021-02-28 23:45 [Chong]
+### All pages
+#### Added
+- Links to reg.idec.io in navbar
+
 ## 2021-02-22 00:28 [Trevor]
 ### `pages/details_for_registration.html`
 #### Removed

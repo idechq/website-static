@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+:root{
+  --idec_primary_purple: #2a206a;
+  --idec_primary_green: #00AD66;
+  --idec_light_purple_1: #7A5FBC;
+  --idec_light_purple_2: #926ABA;
+  --pseudo_white: #fff;
+}
+
 h1 {
 	color: #2a206a;
 	font-size: 400%;
@@ -1104,4 +1112,35 @@ button {
   .timeline .arrows {
     display: none;
   }
+}
+/* Register now button */
+
+.btn-green{
+    color: var(--idec_primary_purple);
+    border-color: var(--idec_primary_green);
+}
+
+.btn-green:hover{
+  color: var(--pseudo_white);
+  background-color:var(--idec_primary_green);
+	border-color: var(--idec_primary_green);
+}
+
+.btn-divider{
+    width: 3em;
+    height: auto;
+    display: inline-block;
+}
+
+@media (max-width: 760px) {
+  .btn-divider{
+      width: 0em;
+    }
+	.btn-green{
+		margin-bottom: 1em;
+		}
+	.btn-huge{
+		font-size: 1.2em;
+
+		}
 }
