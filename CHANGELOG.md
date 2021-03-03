@@ -5,6 +5,11 @@
 
 ## 2021-02-28 23:45 [Trevor]
 ### `index.html`
+#### Fixed
+- "How did start" changed to "How did it start"
+
+## 2021-02-28 23:45 [Trevor]
+### `index.html`
 #### Added
 - Large button linked to reg.idec.io
 ### `pages/details_for_registration.html`
