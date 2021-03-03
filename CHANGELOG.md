@@ -3,7 +3,7 @@
 ## Unreleased
 - Feedback form needs to be functional
 
-## 2021-02-28 23:45 [Trevor]
+## 2021-03-3 15:33 [Trevor]
 ### `index.html`
 #### Fixed
 - "How did start" changed to "How did it start"
