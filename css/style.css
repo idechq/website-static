@@ -151,7 +151,7 @@ span:before {
   position: absolute;
   top: 0px;
   left: 20%;
-  max-width: 60%
+  max-width: 60%;
 }
 
 .parent .btn {

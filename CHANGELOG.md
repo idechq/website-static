@@ -3,6 +3,11 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-03-22 05:45 [Trevor]
+### `index.html`
+#### Fixed
+- Horizontal alignment of buttons over blue images under "WHO WE ARE"
+
 ## 2021-03-3 15:33 [Trevor]
 ### `index.html`
 #### Fixed
