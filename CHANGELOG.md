@@ -3,7 +3,7 @@
 ## Unreleased
 - Feedback form needs to be functional
 
-## 2021-03-25 11:49 [Trevor]
+## 2021-03-25 12:17 [Trevor]
 ### `details_for_registration.html`
 #### Added
 - Added descriptions of students for iDEC players.
