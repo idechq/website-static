@@ -4,12 +4,21 @@
 - Feedback form needs to be functional
 
 ## 2021-03-25 11:49 [Trevor]
+### `details_for_registration.html`
+#### Added
+- Added descriptions of students for iDEC players.
+- Explanation of change of payment start date
+### `tracks_and_awards.html`
+#### Changed
+- Position of notes
+
+## 2021-03-25 11:49 [Trevor]
 ### `tracks_and_awards.html` & `calendar.html`
 #### Changed
 - Updated information about Challenge Track (Request from Yang)
 ### `tracks_and_awards.html`
 #### Changed
-- Formatting to make Awards appear more separated from Tracks
+- Formatting to make Awards appear more separated from Tracks (Request from Yang)
 
 ## 2021-03-22 05:45 [Trevor]
 ### `index.html`
