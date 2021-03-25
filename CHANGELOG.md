@@ -3,6 +3,11 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-03-25 12:54 [Trevor]
+### `details_for_registration.html`
+#### Changed
+- Style of information display
+
 ## 2021-03-25 12:17 [Trevor]
 ### `details_for_registration.html`
 #### Added

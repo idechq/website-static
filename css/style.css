@@ -862,7 +862,7 @@ span:before {
 	color: #926ABA;
 }
 
-.alert { /* Alert box on "Details for Registration" page */
+.alert-1 { /* Alert box on "Details for Registration" page */
   padding: 20px;
   background-color: #f44336; /* Red */
   color: white;
