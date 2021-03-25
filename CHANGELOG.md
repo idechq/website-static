@@ -3,6 +3,14 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-03-25 11:49 [Trevor]
+### `tracks_and_awards.html` & `calendar.html`
+#### Changed
+- Updated information about Challenge Track (Request from Yang)
+### `tracks_and_awards.html`
+#### Changed
+- Formatting to make Awards appear more separated from Tracks
+
 ## 2021-03-22 05:45 [Trevor]
 ### `index.html`
 #### Fixed
