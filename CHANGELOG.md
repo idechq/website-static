@@ -3,6 +3,11 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-04-02 14:21 [Trevor]
+### All pages
+#### Changed
+- Updated links to new wiki @ wiki.idec.io
+
 ## 2021-03-25 12:54 [Trevor]
 ### `details_for_registration.html`
 #### Changed
