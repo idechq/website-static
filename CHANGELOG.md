@@ -3,6 +3,11 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-04-13 15:32 [Trevor]
+### `ethics_biosafety_and_biosecurity.html`
+#### Changed
+- Text editing requests from Svenja
+
 ## 2021-04-02 14:21 [Trevor]
 ### All pages
 #### Changed
