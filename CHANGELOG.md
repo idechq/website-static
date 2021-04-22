@@ -3,6 +3,17 @@
 ## Unreleased
 - Feedback form needs to be functional
 
+## 2021-04-22 23:00 [Trevor]
+### News Sections
+#### Added
+- New page `pages/news.html`
+- New section under `index.html` called "News and Announcements"
+- `.link-style-2` for news title on main page in `style.css`
+- Menu item to news page on all pages
+### `readme.md`
+#### Changed
+- Basic description added.
+
 ## 2021-04-13 15:32 [Trevor]
 ### `ethics_biosafety_and_biosecurity.html`
 #### Changed

@@ -854,13 +854,22 @@ span:before {
 }
 
 .link-style-1{ /* for most hyperlinks including TOC links */
-	color: #7A5FBC;
+	color: var(--idec_light_purple_1);
 	font-weight: bold;
 }
 
 .link-style-1:hover{ /* for most hyperlinks including TOC links */
-	color: #926ABA;
+	color: var(--idec_light_purple_2);
 }
+
+.link-style-2{ /* for hyperlinks but not bold */
+	color: var(--idec_primary_purple);
+}
+
+.link-style-2:hover{ /* for most hyperlinks including TOC links */
+	color: var(--idec_light_purple_1);
+}
+
 
 .alert-1 { /* Alert box on "Details for Registration" page */
   padding: 20px;
