@@ -12,6 +12,10 @@
 
 - News 2 & 3
 
+### `details_for_registration.html`
+
+-  Indicated that Festival fee is waived
+
 ## 2021-04-24 22:11 (Trevor)
 
 ### News Sections
