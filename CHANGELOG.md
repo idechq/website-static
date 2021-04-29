@@ -4,7 +4,15 @@
 
 - Feedback form needs to be functional
 
-## 2021-04-24 22:11 [Trevor]
+## 2021-04-30 00:12 (Trevor)
+
+### News Sections
+
+#### Added
+
+- News 2 & 3
+
+## 2021-04-24 22:11 (Trevor)
 
 ### News Sections
 
@@ -12,7 +20,7 @@
 
 - News 2 postponed to 26th Apr 2021
 
-## 2021-04-22 23:00 [Trevor]
+## 2021-04-22 23:00 (Trevor)
 
 ### News Sections
 
@@ -29,7 +37,7 @@
 
 - Basic description added.
 
-## 2021-04-13 15:32 [Trevor]
+## 2021-04-13 15:32 (Trevor)
 
 ### `ethics_biosafety_and_biosecurity.html`
 
@@ -37,7 +45,7 @@
 
 - Text editing requests from Svenja
 
-## 2021-04-02 14:21 [Trevor]
+## 2021-04-02 14:21 (Trevor)
 
 ### All pages
 
@@ -45,7 +53,7 @@
 
 - Updated links to new wiki @ wiki.idec.io
 
-## 2021-03-25 12:54 [Trevor]
+## 2021-03-25 12:54 (Trevor)
 
 ### `details_for_registration.html`
 
@@ -53,7 +61,7 @@
 
 - Style of information display
 
-## 2021-03-25 12:17 [Trevor]
+## 2021-03-25 12:17 (Trevor)
 
 ### `details_for_registration.html`
 
@@ -68,7 +76,7 @@
 
 - Position of notes
 
-## 2021-03-25 11:49 [Trevor]
+## 2021-03-25 11:49 (Trevor)
 
 ### `tracks_and_awards.html` & `calendar.html`
 
@@ -82,7 +90,7 @@
 
 - Formatting to make Awards appear more separated from Tracks (Request from Yang)
 
-## 2021-03-22 05:45 [Trevor]
+## 2021-03-22 05:45 (Trevor)
 
 ### `index.html`
 
@@ -90,7 +98,7 @@
 
 - Horizontal alignment of buttons over blue images under "WHO WE ARE"
 
-## 2021-03-3 15:33 [Trevor]
+## 2021-03-3 15:33 (Trevor)
 
 ### `index.html`
 
@@ -98,7 +106,7 @@
 
 - "How did start" changed to "How did it start"
 
-## 2021-02-28 23:45 [Trevor]
+## 2021-02-28 23:45 (Trevor)
 
 ### `index.html`
 
@@ -112,7 +120,7 @@
 
 - Link of button to reg.idec.io in middle of the page
 
-## 2021-02-28 23:45 [Chong]
+## 2021-02-28 23:45 (Chong)
 
 ### All pages
 
@@ -120,7 +128,7 @@
 
 - Links to reg.idec.io in navbar
 
-## 2021-02-22 00:28 [Trevor]
+## 2021-02-22 00:28 (Trevor)
 
 ### `pages/details_for_registration.html`
 
@@ -128,7 +136,7 @@
 
 - Age, information no longer requested from participants.
 
-## 2021-02-21 16:31 [Trevor]
+## 2021-02-21 16:31 (Trevor)
 
 ### `pages/details_for_registration.html`
 
@@ -136,7 +144,7 @@
 
 - "Date of birth" to "Age"
 
-## 2021-02-17 16:31 [Trevor]
+## 2021-02-17 16:31 (Trevor)
 
 ### `index.html`
 
@@ -150,7 +158,7 @@
 
 - My own profile picture
 
-## 2021-02-9 07:52 [Trevor]
+## 2021-02-9 07:52 (Trevor)
 
 ### `index.html`
 
@@ -165,7 +173,7 @@
 
 - "Prof. Chen Ye" to "Prof. Ye Chen"
 
-## 2021-02-07 15:16 [Trevor]
+## 2021-02-07 15:16 (Trevor)
 
 ### `details_for_registration.js`
 
@@ -173,7 +181,7 @@
 
 - Privacy Policy F3 extra "3." in list
 
-## 2021-02-06 10:29 [Trevor]
+## 2021-02-06 10:29 (Trevor)
 
 ### `js/timeline.js`
 
@@ -181,7 +189,7 @@
 
 - `xScrolling` from 700 to 900. This is needed for very large screens
 
-## 2021-02-05 21:30 [Trevor]
+## 2021-02-05 21:30 (Trevor)
 
 ### `js/timeline.js`
 
@@ -189,7 +197,7 @@
 
 - `xScrolling` from 280 to 700
 
-## 2021-02-05 21:12 [Trevor]
+## 2021-02-05 21:12 (Trevor)
 
 ### `index.html`
 
@@ -197,7 +205,7 @@
 
 - `<script src="https://hammerjs.github.io/dist/hammer.js"></script>`
 
-## 2021-02-05 21:12 [Trevor]
+## 2021-02-05 21:12 (Trevor)
 
 ### All pages
 
@@ -205,7 +213,7 @@
 
 - Set all search bar to be invisible using `class="d-none"`
 
-## 2021-02-05 20:59 [Felipe]
+## 2021-02-05 20:59 (Felipe)
 
 ### `css/style.css`
 
@@ -217,7 +225,7 @@
 
 - `.card-footer {background-size: 100%;}` to `.card-footer {background-size: cover;}`
 
-## 2021-02-05 19:14 [Trevor]
+## 2021-02-05 19:14 (Trevor)
 
 ### Timeline on `index.html`, `css/style.css`
 
@@ -225,7 +233,7 @@
 
 - Timeline location on large screens
 
-## 2021-02-05 18:58 [Trevor]
+## 2021-02-05 18:58 (Trevor)
 
 ### Timeline on `index.html`, `css/style.css`
 
@@ -238,7 +246,7 @@
 - Added Dr. prefix to Felipe
 - Changed Jiayi Zhen to Jiayi Zeng
 
-## 2021-02-05 17:43 [Trevor]
+## 2021-02-05 17:43 (Trevor)
 
 ### `pages/requirements.html`
 
@@ -246,7 +254,7 @@
 
 - Minor text edits as required by Yang
 
-## 2021-02-05 17:43 [Trevor]
+## 2021-02-05 17:43 (Trevor)
 
 ### `index.html`
 
@@ -255,7 +263,7 @@
 - Info for TIMELINE
 - Text for EBB banner
 
-## 2021-02-05 07:19 [Trevor]
+## 2021-02-05 07:19 (Trevor)
 
 ### `index.html`
 
@@ -266,7 +274,7 @@
 - Moved js for timeline into `js/timeline.js` and replaced with `<script src="js/timeline.js"></script>`
 - Increased sizes of cards (by Yinan)
 
-## 2021-02-05 04:41 [Trevor]
+## 2021-02-05 04:41 (Trevor)
 
 ### `index.html`
 
@@ -287,7 +295,7 @@
 
 - Sub-track numbers for the three tracks (requested by Yang)
 
-## 2021-02-04 12:48 [Trevor]
+## 2021-02-04 12:48 (Trevor)
 
 ### `index.html`
 
@@ -295,7 +303,7 @@
 
 - Updated image for "Share protocols and knowledge with peers and experts"
 
-## 2021-02-03 07:56 [Trevor]
+## 2021-02-03 07:56 (Trevor)
 
 ### `pages/about_us.html`, `pages/details_for_registration.html`, ### `pages/tracks_and_awards.html`
 
@@ -309,7 +317,7 @@
 
 - `.colored-text-1`, for coloring dates as requested by Yang
 
-## 2021-02-03 07:00 [Trevor]
+## 2021-02-03 07:00 (Trevor)
 
 ### `pages/details_for_registration.html`
 
@@ -349,7 +357,7 @@
 
 - Awesome Font icons to headings wherever I can find a relevant and appropriate icon
 
-## 2021-02-02 12:35 [Trevor]
+## 2021-02-02 12:35 (Trevor)
 
 ### `calendar.html`, `details_for_registration.html`, `requirements.html`
 
@@ -357,7 +365,7 @@
 
 - Forbidden `&` character
 
-## 2021-02-1 07:12 [Trevor]
+## 2021-02-1 07:12 (Trevor)
 
 ### `pages/about_us.html`
 
@@ -365,7 +373,7 @@
 
 - Increased HQ member job titles' font size from `0.5em` to `0.8em`
 
-## 2021-02-1 03:14 [Trevor]
+## 2021-02-1 03:14 (Trevor)
 
 ### `index.html`
 
@@ -438,7 +446,7 @@
 
 - Menu link text "Register for iDEC 2021" -> "Register for iDEC 2021 (open on Mar 1)"
 
-## 2021-01-31 23:47 [Trevor]
+## 2021-01-31 23:47 (Trevor)
 
 ### `index.html`
 
@@ -446,7 +454,7 @@
 
 - Image sizes for Requirements and Tracks
 
-## 2021-01-31 18:40 [Trevor]
+## 2021-01-31 18:40 (Trevor)
 
 ### `pages/details_for_registration.html`
 
@@ -454,7 +462,7 @@
 
 - Privacy Policy (ver.2) texts
 
-## 2021-01-30 22:13 [Trevor]
+## 2021-01-30 22:13 (Trevor)
 
 ### `index.html`, `pages/about_us.html`, `pages/calendar.html`, `pages/details_for_registration.html`, `pages/requirements.html`, `pages/tracks_and_awards.html`
 
@@ -462,7 +470,7 @@
 
 - Footer text typos
 
-## 2021-01-30 15:00 [Trevor]
+## 2021-01-30 15:00 (Trevor)
 
 ### `index.html`
 
@@ -474,7 +482,7 @@
 
 - Hyperlink to `pages/ethics_biosafety_and_biosecurity.html` in menu bar
 
-## 2021-01-30 14:50 [Trevor]
+## 2021-01-30 14:50 (Trevor)
 
 ### `css/style.css`
 
@@ -574,7 +582,7 @@
 
 - "Mystery awards" to "Mysterious awards"
 
-## 2021-01-29 11:24 [Trevor]
+## 2021-01-29 11:24 (Trevor)
 
 ### `css/style.css`
 
@@ -608,7 +616,7 @@
 
 - Completed page with texts
 
-## 2021-01-28 03:44 [Trevor]
+## 2021-01-28 03:44 (Trevor)
 
 ### `pages/about_us.html`
 
