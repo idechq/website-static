@@ -12,6 +12,11 @@
 
 - Typo in year
 
+### All pages
+
+#### Fixed
+
+- Social media links of buttons now properly linked
 
 ## 2021-04-30 00:24 (Trevor)
 
