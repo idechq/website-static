@@ -4,7 +4,16 @@
 
 - Feedback form needs to be functional
 
-## 2021-04-30 00:12 (Trevor)
+## 2021-04-30 07:00 (Trevor)
+
+### `news.html`
+
+#### Fixed
+
+- Typo in year
+
+
+## 2021-04-30 00:24 (Trevor)
 
 ### News Sections
 
