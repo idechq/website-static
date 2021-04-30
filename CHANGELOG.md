@@ -4,6 +4,11 @@
 
 - Feedback form needs to be functional
 
+
+## 2021-04-30 13:10 (Trevor)
+-   Added responsible research form section to EBB page, also added to news section
+-   Fixed link style on news page for "reg.idec.io"
+
 ## 2021-04-30 07:00 (Trevor)
 
 ### `news.html`
