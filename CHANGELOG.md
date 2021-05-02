@@ -4,8 +4,12 @@
 
 - Feedback form needs to be functional
 
+## 2021-05-02 03:20 (Trevor)
+
+- Added news on payment information and registration closes
 
 ## 2021-04-30 13:10 (Trevor)
+
 -   Added responsible research form section to EBB page, also added to news section
 -   Fixed link style on news page for "reg.idec.io"
 
