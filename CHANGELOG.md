@@ -2,7 +2,11 @@
 
 ## Unreleased
 
-- Feedback form needs to be functional
+- N/A
+
+## 2021-05-04 21:57 (Trevor)
+
+- Fixed feedback form. It is now functional.
 
 ## 2021-05-02 03:20 (Trevor)
 

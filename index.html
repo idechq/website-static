@@ -25,6 +25,30 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_uWUDhVJ1AvKnjoP1OzqYJ');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('fcf-form-id').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_myeauaj', 'template_jrx7rad', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -650,15 +674,17 @@
           <div class="jumbotron jumbo-form">
              <div class="text-center col-12">
                 <!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
-                <form id="fcf-form-id" class="text-center" method="post" action="php/contact-form-process.php">
+                <form id="fcf-form-id" class="text-center" method="post" >
+                <!-- action="php/contact-form-process.php" -->
                   <div class="form-group">
+                    <input type="hidden" name="contact_number">
                     <label class="font-weight-bold" for="name">Name</label>
-                    <input type="text" class="form-control" id="Name" name="name" placeholder="Name" aria-describedby="nameHelp">
+                    <input type="text" class="form-control" id="Name" name="from_name" placeholder="Name" aria-describedby="nameHelp">
                     <span id="nameHelp" class="form-text text-muted"  style="display: none;">Please enter your name.</span>
                   </div>
                   <div class="form-group">
                     <label class="font-weight-bold" for="email">E-Mail</label>
-                    <input type="email" class="form-control" id="Email" name="email" placeholder="Email Address" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="Email" name="from_email" placeholder="Email Address" aria-describedby="emailHelp">
                     <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
                   </div>
                   <div  class="form-group">
@@ -666,7 +692,7 @@
                     <textarea rows="10" cols="100" class="form-control" id="Message" name="message" placeholder="Message" aria-describedby="messageHelp"></textarea>
                     <span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter a message.</span>
                   </div>
-                  <button type="submit" id="fcf-button" class="btn btn-lg" style="background-color: #2a206a; color:#ffffff"> Send</button>
+                  <button type="submit" id="fcf-button" class="btn btn-lg" style="background-color: #2a206a; color:#ffffff" value="Send"> Send</button>
                 </form>
               </div>
             </div>
@@ -702,8 +728,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
-	<script src="js/main.js"></script>
-  <script src="js/2a0c96cd0e.js" crossorigin="anonymous"></script>
-  <script src="js/timeline.js"></script>
-  <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/2a0c96cd0e.js" crossorigin="anonymous"></script>
+    <script src="js/timeline.js"></script>
+    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+
 </html>
