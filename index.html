@@ -43,8 +43,10 @@
                 emailjs.sendForm('service_myeauaj', 'template_jrx7rad', this)
                     .then(function() {
                         console.log('SUCCESS!');
+                        alert("Feedback Sent!");
                     }, function(error) {
                         console.log('FAILED...', error);
+                        alert("Failure to send feedback! \nPlease send email to support@idechq.org");
                     });
             });
         }
