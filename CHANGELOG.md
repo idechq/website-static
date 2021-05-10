@@ -4,6 +4,10 @@
 
 - N/A
 
+## 2021-05-10 22:40 (Trevor)
+
+- Used new link to resources wiki hub
+
 ## 2021-05-04 21:57 (Trevor)
 
 - Fixed feedback form. It is now functional.
