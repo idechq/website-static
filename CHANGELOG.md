@@ -4,6 +4,10 @@
 
 - N/A
 
+## 2021-06-13 08:30 (Trevor)
+
+- Add news for team wiki open for editing
+
 ## 2021-05-10 22:40 (Trevor)
 
 - Used new link to resources wiki hub
