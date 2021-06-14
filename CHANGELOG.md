@@ -4,9 +4,12 @@
 
 - N/A
 
-## 2021-06-13 08:30 (Trevor)
+## 2021-06-14 10:00 (Trevor)
 
 - Add news for team wiki open for editing
+- Add news for track decision
+- Add news for iDEC Webinar
+- Remove old news
 
 ## 2021-05-10 22:40 (Trevor)
 
