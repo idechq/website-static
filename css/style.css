@@ -315,6 +315,21 @@ span:before {
   }
 }
 
+/* Simplified sponsor logos */
+
+.spons-logo {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 600px) {
+  .spons-logo {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 .sblogos {
   height: 150px; /* Change this value to make logos smaller / bigger */
   padding-left: 15px;

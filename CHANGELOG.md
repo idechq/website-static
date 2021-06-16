@@ -2,19 +2,20 @@
 
 ## Unreleased
 
-- N/A
+- Need to do proper Bootstrap on sponsor logos
 
-## 2021-06-16 09:22 (Trevor)
+## 2021-06-16 10:00 (Trevor)
 
-- Add news for modifying tracks selecion, CCiC
-- Remove old news
+- Added logos for collaborators STA, CCiC
+- Added news for modifying tracks selecion, CCiC
+- Removed old news
 
 ## 2021-06-14 10:00 (Trevor)
 
-- Add news for team wiki open for editing
-- Add news for track decision
-- Add news for iDEC Webinar
-- Remove old news
+- Added news for team wiki open for editing
+- Added news for track decision
+- Added news for iDEC Webinar
+- Removed old news
 
 ## 2021-05-10 22:40 (Trevor)
 
