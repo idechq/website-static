@@ -4,6 +4,11 @@
 
 - N/A
 
+## 2021-06-16 09:22 (Trevor)
+
+- Add news for modifying tracks selecion, CCiC
+- Remove old news
+
 ## 2021-06-14 10:00 (Trevor)
 
 - Add news for team wiki open for editing
