@@ -4,6 +4,11 @@
 
 - Need to do proper Bootstrap on sponsor logos
 
+## 2021-06-21 22:32 (Trevor)
+
+- Added logos for AmazonSmile
+- Minor change to indentation on footer JS load tags
+
 ## 2021-06-16 10:00 (Trevor)
 
 - Added logos for collaborators STA, CCiC
