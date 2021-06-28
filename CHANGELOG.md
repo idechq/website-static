@@ -4,6 +4,10 @@
 
 - Need to do proper Bootstrap on sponsor logos
 
+## 2021-06-28 16:40 (Trevor)
+
+- Added news #11 for Responsible research form deadline
+
 ## 2021-06-21 22:32 (Trevor)
 
 - Added logos for AmazonSmile
