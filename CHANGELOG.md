@@ -4,8 +4,9 @@
 
 - Need to do proper Bootstrap on sponsor logos
 
-## 2021-06-28 17:00 (Trevor)
+## 2021-06-28 17:30 (Trevor)
 
+- Added preview for social media (index page only)
 - Added background translucent effects to btn-large & jumbotron quotes
 - Added news #11 for Responsible research form deadline
 
