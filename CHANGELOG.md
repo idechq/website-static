@@ -6,6 +6,7 @@
 
 ## 2021-06-30 14:21 (Trevor)
 
+- Added GenScript sponsorship news
 - Added NEB advert for Post-docs
 - Added GenScript and NEB sponsor logos
 - Moved scripts for EmailJs into separate js file
