@@ -6,6 +6,7 @@
 
 ## 2021-06-30 13:20 (Trevor)
 
+- Moved scripts for EmailJs into separate js file
 - Moved sponsor logos files into subfolder `sponsor_collab`
 
 ## 2021-06-28 17:30 (Trevor)
