@@ -4,8 +4,9 @@
 
 - Need to do proper Bootstrap on sponsor logos
 
-## 2021-06-30 13:20 (Trevor)
+## 2021-06-30 14:21 (Trevor)
 
+- Added NEB advert for Post-docs
 - Added GenScript and NEB sponsor logos
 - Moved scripts for EmailJs into separate js file
 - Moved sponsor logos files into subfolder `sponsor_collab`

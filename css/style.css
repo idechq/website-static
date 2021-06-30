@@ -1239,3 +1239,60 @@ button {
   width: 100%;
   height: 100%;
 }
+
+/* NEB advertisement banner */
+.ad-banner {
+  padding: 10px 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ad-banner .ad-banner-text {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.ad-banner .info-btn {
+  height:auto;
+  width: auto;
+  padding: 0.2em 0.8em;
+  margin-left: 1em;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.neb-colors {
+  background-color: #808080;
+  color: #FFFFFF;
+}
+
+.neb-colors button.info-btn {
+  color: #FFFFFF;
+  background-color: #F2661B;
+}
+
+.ad-banner .dimiss-btn {
+  position: absolute;
+  right: 2em;
+}
+
+.ad-timer{
+  size: 0.1em;
+}
+
+@media only screen and (min-width: 768px) { 
+  .responsive-br {
+    display: none;
+  }
+}
+
+@media (max-width: 860px) { 
+  .responsive-nbsp {
+    display: none;
+  }
+  .ad-banner button.info-btn {
+    margin-top: 1em;
+  }
+}
