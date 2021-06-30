@@ -6,6 +6,7 @@
 
 ## 2021-06-30 13:20 (Trevor)
 
+- Added GenScript and NEB sponsor logos
 - Moved scripts for EmailJs into separate js file
 - Moved sponsor logos files into subfolder `sponsor_collab`
 
