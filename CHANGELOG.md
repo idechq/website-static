@@ -4,6 +4,11 @@
 
 - Need to do proper Bootstrap on sponsor logos
 
+## 2021-07-07 14:53 (Trevor)
+
+- Added email image folder
+- Added email image for webinar #1
+
 ## 2021-06-30 22:00 (Trevor)
 
 - Added news #13
