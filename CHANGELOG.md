@@ -8,6 +8,7 @@
 
 - Added email image folder
 - Added email image for webinar #1
+- Added NEB sponsorship news #14 but set to d-none
 
 ## 2021-06-30 22:00 (Trevor)
 
