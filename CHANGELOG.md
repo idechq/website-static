@@ -4,6 +4,10 @@
 
 - Need to do proper Bootstrap on sponsor logos
 
+## 2021-07-20 08:05 (Trevor)
+
+- Released NEB sponsorship news #14
+
 ## 2021-07-14 16:40 (Trevor)
 
 - Added webinar news #15
