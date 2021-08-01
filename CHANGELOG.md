@@ -4,6 +4,11 @@
 
 - Need to do proper Bootstrap on sponsor logos
 
+## 2021-08-01 21:55 (Trevor)
+
+- Added NEB free product news #17
+- Added Ailurus Biotechnology sponsor news #16
+
 ## 2021-07-20 08:05 (Trevor)
 
 - Released NEB sponsorship news #14
