@@ -2,10 +2,10 @@
 
 ## Unreleased
 
-- Need to do proper Bootstrap on sponsor logos
+## 2021-08-01 22:39 (Trevor)
 
-## 2021-08-01 21:55 (Trevor)
-
+- Fixed sponsor logos responsiveness problem
+- Added Ailurus Biotechnology logo on home page
 - Added NEB free product news #17
 - Added Ailurus Biotechnology sponsor news #16
 

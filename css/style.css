@@ -325,17 +325,14 @@ span:before {
 
 /* Simplified sponsor logos */
 
-.spons-logo {
-  margin-left: 50px;
-  margin-right: 50px;
+.spons-logo-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 600px) {
-  .spons-logo {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  }
+.spons-logo {
+  margin: 0 20px 20px 20px;
 }
 
 .sblogos {
