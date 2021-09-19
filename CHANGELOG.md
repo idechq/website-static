@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 2021-09-19 12:30 (Trevor)
+
+- Fixed typo on `Awards` page
+
 ## 2021-08-01 22:39 (Trevor)
 
 - Fixed sponsor logos responsiveness problem
