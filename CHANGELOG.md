@@ -6,6 +6,7 @@
 
 ## 2021-09-28 23:53 (Trevor)
 
+- Fix list appearances on `pages/news.html` and `pages/tracks_and_awards.html`
 - Added Bluepha logo on home page
 - Added Bluepha sponsorship news #18
 
