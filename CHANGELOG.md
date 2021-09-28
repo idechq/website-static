@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Refactor all style.css to make the site maintainable
+
+## 2021-09-28 23:53 (Trevor)
+
+- Added Bluepha logo on home page
+- Added Bluepha sponsorship news #18
+
 ## 2021-09-19 12:30 (Trevor)
 
 - Fixed typo on `Awards` page
@@ -11,7 +18,7 @@
 - Fixed sponsor logos responsiveness problem
 - Added Ailurus Biotechnology logo on home page
 - Added NEB free product news #17
-- Added Ailurus Biotechnology sponsor news #16
+- Added Ailurus Biotechnology sponsorship news #16
 
 ## 2021-07-20 08:05 (Trevor)
 
