@@ -4,6 +4,11 @@
 
 - Refactor all style.css to make the site maintainable
 
+
+## 2021-10-10 11:13 (Trevor)
+
+- Fix typo on home page
+
 ## 2021-09-28 23:53 (Trevor)
 
 - Fix list appearances on `pages/news.html` and `pages/tracks_and_awards.html`
