@@ -7,6 +7,7 @@
 ## 2021-10-19 00:40 (Trevor)
 
 - Added idecRxiv link to all pages
+- Used favicon that works in dark mode browser
 
 ## 2021-10-10 11:13 (Trevor)
 
