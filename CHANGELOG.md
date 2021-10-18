@@ -4,14 +4,17 @@
 
 - Refactor all style.css to make the site maintainable
 
+## 2021-10-19 00:40 (Trevor)
+
+- Added idecRxiv link to all pages
 
 ## 2021-10-10 11:13 (Trevor)
 
-- Fix typo on home page
+- Fixed typo on home page
 
 ## 2021-09-28 23:53 (Trevor)
 
-- Fix list appearances on `pages/news.html` and `pages/tracks_and_awards.html`
+- Fixed list appearances on `pages/news.html` and `pages/tracks_and_awards.html`
 - Added Bluepha logo on home page
 - Added Bluepha sponsorship news #18
 
