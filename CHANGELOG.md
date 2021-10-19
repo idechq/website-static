@@ -4,7 +4,7 @@
 
 - Refactor all style.css to make the site maintainable
 
-## 2021-10-19 00:40 (Trevor)
+## 2021-10-19 02:00 (Trevor)
 
 - Added idecRxiv link to all pages
 - Used favicon that works in dark mode browser
