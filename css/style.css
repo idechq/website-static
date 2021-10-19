@@ -857,6 +857,39 @@ span:before {
 
 /* List styles */
 
+.text-list {
+  list-style-position: outside;
+  margin: 0em;
+  padding-left: 1em;
+}
+ul.text-list li {
+  padding-left: 2em;
+  margin: 0 0 0.75em 0;
+}
+ol.text-list li {
+  padding-left: 1em;
+  margin: 0 0 0.75em 0;
+}
+ul.text-list li::marker{
+  content: "●";
+  color: purple;
+}
+.text-list li ul li{
+  padding-left: 1em;
+  margin: 0 0 0.5em 0;
+}
+
+.ordered-text-list {
+  list-style-position: outside;
+  margin: 0em;
+  padding-left: 1em;
+}
+.ordered-text-list li {
+  padding-left: 1em;
+  margin: 0 0 0.75em 0;
+}
+
+
 .text-list-1 {
   /* lists of texts with multiple lines */
   list-style-position: outside;
