@@ -982,7 +982,26 @@ ul.text-list li::marker{
   margin-bottom: 15px;
 }
 
-.img-thumbnail {
+/* VOLUNTEER CARD (About Us)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.volunteer-card {
+  width: 12rem;
+}
+
+.volunteer-card span {
+  color: #2a206a;
+}
+
+.volunteer-card span.name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.volunteer-card span.role {
+  font-size: 0.8rem;
+}
+
+.volunteer-card img {
   /* about_us page headshots */
   padding: 0.3rem;
   background-color: #f8f9fa;
