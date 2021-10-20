@@ -280,8 +280,8 @@ nav div li .nav-link a {
   margin: 0 20px 20px 20px;
 }
 
-/* List styles */
-
+/* ALL PURPOSE TEXT LIST STYLE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .text-list {
   list-style-position: outside;
   margin: 0em;
@@ -303,6 +303,10 @@ ul.text-list li::marker{
   list-style-position: outside;
   margin: 1em 0 1em 1em;
 }
+.text-list li ol {
+  list-style-position: outside;
+  margin: 1em 0 1em 1em;
+}
 .text-list li ul li{
   padding-left: 2em;
   margin: 0 0 0.5em 0;
@@ -310,18 +314,22 @@ ul.text-list li::marker{
 .text-list li ul li::marker{
   color: var(--idec_light_purple_1);
 }
+ol.text-list li ul li::marker{
+  content: "●";
+  color: purple;
+}
 
+/* LIST STYLE FOR CALENDAR TABLE ITEMS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .calendar-text-list {
   list-style-position: outside;
   margin: 0em;
   padding-left: 1em;
 }
-
 .calendar-text-list li {
   padding-left: 1em;
   margin: 0 0 0.75em 0;
 }
-
 .calendar-text-list li::marker {
   content: "●";
   color: purple;
