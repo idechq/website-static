@@ -304,16 +304,21 @@ ul.text-list li::marker{
   margin: 0 0 0.5em 0;
 }
 
-.ordered-text-list {
+.calendar-text-list {
   list-style-position: outside;
   margin: 0em;
   padding-left: 1em;
 }
-.ordered-text-list li {
+
+.calendar-text-list li {
   padding-left: 1em;
   margin: 0 0 0.75em 0;
 }
 
+.calendar-text-list li::marker {
+  content: "●";
+  color: purple;
+}
 
 .text-list-1 {
   /* lists of texts with multiple lines */
