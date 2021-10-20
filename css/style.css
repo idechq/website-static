@@ -78,7 +78,7 @@ nav div li .nav-link a {
   padding-bottom: 10px;
   border-radius: 50px;
   font-size: 25px;
-  background-color: rgba(233, 236, 239, 0.7)
+  background-color: rgba(233, 236, 239, 0.7);
 }
 
 .parent {
@@ -295,7 +295,7 @@ ol.text-list li {
   padding-left: 1em;
   margin: 0 0 0.75em 0;
 }
-ul.text-list li::marker{
+ul.text-list li::marker {
   content: "●";
   color: purple;
 }
@@ -307,14 +307,14 @@ ul.text-list li::marker{
   list-style-position: outside;
   margin: 1em 0 1em 1em;
 }
-.text-list li ul li{
+.text-list li ul li {
   padding-left: 2em;
   margin: 0 0 0.5em 0;
 }
-.text-list li ul li::marker{
+.text-list li ul li::marker {
   color: var(--idec_light_purple_1);
 }
-ol.text-list li ul li::marker{
+ol.text-list li ul li::marker {
   content: "●";
   color: purple;
 }
@@ -386,21 +386,29 @@ ol.text-list li ul li::marker{
   margin: 0 0 0.75em 0;
 }
 
+/* MAIN THEME HYPERLINKS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .general-hyperlink {
   color: var(--idec_light_purple_1);
   font-weight: bold;
 }
+
 .general-hyperlink:hover {
   color: var(--idec_light_purple_2);
 }
 
+/* HYPERLINKS ON NEWS CARD (Home)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .news-card-hyperlink {
   color: var(--idec_primary_purple);
 }
+
 .news-card-hyperlink:hover {
   color: var(--idec_light_purple_1);
 }
 
+/* ALERT BOX (Details for Registration)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .alert-1 {
   /* Alert box on "Details for Registration" page */
   padding: 20px;
@@ -462,7 +470,6 @@ button {
 
 /* TIMELINE (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .timeline {
   white-space: nowrap;
   overflow-x: hidden;
@@ -569,6 +576,12 @@ button {
 
 /* TIMELINE ARROWS (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
 
 .timeline .arrows {
   display: flex;
@@ -589,7 +602,7 @@ button {
   height: 45px;
 }
 
-/* GENERAL MEDIA QUERIES
+/* TIMELINE GENERAL MEDIA QUERIES (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (max-width: 750px) {
   .timeline ol,
@@ -682,11 +695,14 @@ button {
   }
 }
 
+/* VIDEO FRAME (Home)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
 }
+
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -695,7 +711,8 @@ button {
   height: 100%;
 }
 
-/* NEB advertisement banner */
+/* NEB ADVERTISEMENT BANNER (Home)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .ad-banner {
   padding: 10px 0 10px 0;
   display: flex;
@@ -709,7 +726,7 @@ button {
 }
 
 .ad-banner .info-btn {
-  height:auto;
+  height: auto;
   width: auto;
   padding: 0.2em 0.8em;
   margin-left: 1em;
@@ -720,30 +737,29 @@ button {
 
 .neb-colors {
   background-color: #808080;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .neb-colors button.info-btn {
-  color: #FFFFFF;
-  background-color: #F2661B;
+  color: #ffffff;
+  background-color: #f2661b;
 }
 
 .ad-banner .dimiss-btn {
   position: absolute;
   right: 2em;
 }
-
-.ad-timer{
+.ad-timer {
   size: 0.1em;
 }
 
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
   .responsive-br {
     display: none;
   }
 }
 
-@media (max-width: 860px) { 
+@media (max-width: 860px) {
   .responsive-nbsp {
     display: none;
   }
