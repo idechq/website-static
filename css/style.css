@@ -371,36 +371,18 @@ ul.text-list li::marker{
   margin: 0 0 0.75em 0;
 }
 
-.item-style-5 {
-  /* similar to item-style-1, but for unordered list items that need compact displays on small screens */
-  padding-left: 1em;
-  margin: 0 0 0.75em 0;
-}
-
-.item-style-5::marker {
-  /* similar to item-style-1, but for unordered list items that need compact displays on small screens */
-  content: "●";
-  color: purple;
-}
-
-.link-style-1 {
-  /* for most hyperlinks including TOC links */
+.general-hyperlink {
   color: var(--idec_light_purple_1);
   font-weight: bold;
 }
-
-.link-style-1:hover {
-  /* for most hyperlinks including TOC links */
+.general-hyperlink:hover {
   color: var(--idec_light_purple_2);
 }
 
-.link-style-2 {
-  /* for hyperlinks but not bold */
+.news-card-hyperlink {
   color: var(--idec_primary_purple);
 }
-
-.link-style-2:hover {
-  /* for most hyperlinks including TOC links */
+.news-card-hyperlink:hover {
   color: var(--idec_light_purple_1);
 }
 
