@@ -323,7 +323,7 @@ ol.text-list li ul li::marker {
 
 /* TIMELINE ARROWS (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-button {
+.arrows button {
   background: transparent;
   border: none;
   cursor: pointer;
