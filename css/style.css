@@ -335,18 +335,16 @@ ol.text-list li ul li::marker {
   color: purple;
 }
 
-.text-list-1 {
-  /* lists of texts with multiple lines */
-  list-style-position: outside;
-  margin: 0em;
+.item-style-5 {
+  /* similar to item-style-1, but for unordered list items that need compact displays on small screens */
   padding-left: 1em;
+  margin: 0 0 0.75em 0;
 }
 
-.text-list-2 {
-  /* Event on "Calendar" page */
-  list-style-position: outside;
-  margin: 0em;
-  padding-left: 1em;
+.item-style-5::marker {
+  /* similar to item-style-1, but for unordered list items that need compact displays on small screens */
+  content: "●";
+  color: purple;
 }
 
 .text-list-3 {
@@ -445,27 +443,6 @@ ol.text-list li ul li::marker {
   max-width: 90%;
   margin: 1rem;
   margin-bottom: 0.2rem;
-}
-
-
-.colored-text-1 {
-  /* To color dates as requested by Yang*/
-  color: #7a5fbc; /* should change to a diff color later to avoid confusion with links */
-}
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
 }
 
 /* TIMELINE (Home)
@@ -665,6 +642,19 @@ button {
 }
 
 /* Register now buttons */
+
+.colored-text-1 {
+  /* To color dates as requested by Yang*/
+  color: #7a5fbc; /* should change to a diff color later to avoid confusion with links */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .btn-green {
   color: var(--idec_primary_purple);
