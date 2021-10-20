@@ -299,9 +299,16 @@ ul.text-list li::marker{
   content: "●";
   color: purple;
 }
+.text-list li ul {
+  list-style-position: outside;
+  margin: 1em 0 1em 1em;
+}
 .text-list li ul li{
-  padding-left: 1em;
+  padding-left: 2em;
   margin: 0 0 0.5em 0;
+}
+.text-list li ul li::marker{
+  color: var(--idec_light_purple_1);
 }
 
 .calendar-text-list {
