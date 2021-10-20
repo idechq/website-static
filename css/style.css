@@ -24,260 +24,22 @@ h1 {
   }
 }
 
+/* NAVIGATION BAR
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav div li .nav-link a {
   color: #2a206a;
   font-size: 100%;
 }
-/* Background image*/
-.title-jumbo {
-  background-image: url("../img/hand.png"), url("../img/tree.png");
-  background-size: 600px, 1800px;
-  background-position: right, top;
-  background-repeat: no-repeat;
-  background-attachment: scroll, scroll;
+
+/* MAIN THEME HYPERLINKS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.general-hyperlink {
+  color: var(--idec_light_purple_1);
+  font-weight: bold;
 }
 
-@media (max-width: 1024px) {
-  .title-jumbo {
-    background-size: 500px, 1800px;
-  }
-}
-@media (max-width: 768px) {
-  .title-jumbo {
-    background-size: 300px, 1800px;
-  }
-}
-@media (max-width: 500px) {
-  .title-jumbo {
-    background-size: 250px, 1800px;
-  }
-}
-.card-footer {
-  background-image: url("../img/bluephoto.png");
-  background-position: relative;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-.card-footer img {
-  left: 0;
-  bottom: 0;
-}
-
-.jumbo-form {
-  background: rgba(213, 207, 255, 0.4);
-}
-.form-control {
-  background: rgba(213, 207, 255, 0.8);
-}
-
-.btn-huge {
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 10px;
-  border-radius: 50px;
-  font-size: 25px;
-  background-color: rgba(233, 236, 239, 0.7);
-}
-
-.parent {
-  position: inline;
-  top: 0;
-  left: 0;
-}
-.img-1 {
-  position: top;
-  top: 0;
-  left: 0;
-  size: contain;
-}
-.img-2 {
-  position: absolute;
-  top: 0px;
-  left: 20%;
-  max-width: 60%;
-}
-
-.parent .btn {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 11px;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 25px;
-  border-width: medium;
-}
-
-.jumbo-quote {
-  background-color: rgba(233, 236, 239, 0.6);
-  border-radius: 2em;
-  padding-left: 0.2em;
-  padding-right: 0.5em;
-}
-
-/* Wrapper */
-.icon-button {
-  background-color: white;
-  border-radius: 2.6rem;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.3rem;
-  height: 2.6rem;
-  line-height: 2.6rem;
-  margin: 0 5px;
-  position: relative;
-  text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 2.6rem;
-}
-
-/* Circle */
-.icon-button span {
-  border-radius: 0;
-  display: block;
-  height: 0;
-  left: 50%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  width: 0;
-}
-.icon-button:hover span {
-  width: 2.6rem;
-  height: 2.6rem;
-  border-radius: 2.6rem;
-  margin: -1.3rem;
-}
-
-/* Icons */
-.icon-button i {
-  background: none;
-  color: white;
-  height: 2.6rem;
-  left: 0;
-  line-height: 2.6rem;
-  position: absolute;
-  top: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  width: 2.6rem;
-  z-index: 10;
-}
-.facebook span {
-  background-color: #3b5998;
-}
-.instagram span {
-  background-color: #e1306c;
-}
-.twitter span {
-  background-color: #4099ff;
-}
-.linkedin span {
-  background-color: #2867b2;
-}
-.github span {
-  background-color: #34526f;
-}
-.youtube span {
-  background-color: #bb0000;
-}
-.pinterest span {
-  background-color: #cb2027;
-}
-
-.icon-button .fa-twitter {
-  color: #4099ff;
-}
-.icon-button .fa-facebook {
-  color: #3b5998;
-}
-.icon-button .fa-github {
-  color: #34526f;
-}
-.icon-button .icon-google-plus {
-  color: #db5a3c;
-}
-.icon-button .fa-instagram {
-  color: #e1306c;
-}
-.icon-button .fa-youtube {
-  color: #bb0000;
-}
-.icon-button .fa-linkedin {
-  color: #2867b2;
-}
-
-.icon-button:hover .fa-twitter {
-  color: white;
-}
-.icon-button:hover .fa-facebook {
-  color: white;
-}
-.icon-button:hover .fa-linkedin {
-  color: white;
-}
-.icon-button:hover .fa-github {
-  color: white;
-}
-.icon-button:hover .fa-instagram {
-  color: white;
-}
-.icon-button:hover .fa-youtube,
-.icon-button:hover .fa-pinterest {
-  color: white;
-}
-
-@media all and (max-width: 680px) {
-  .icon-button {
-    border-radius: 1.6rem;
-    font-size: 0.8rem;
-    height: 1.6rem;
-    line-height: 1.6rem;
-    width: 1.6rem;
-  }
-
-  .icon-button:hover span {
-    width: 1.6rem;
-    height: 1.6rem;
-    border-radius: 1.6rem;
-    margin: -0.8rem;
-  }
-
-  /* Icons */
-  .icon-button i {
-    height: 1.6rem;
-    line-height: 1.6rem;
-    width: 1.6rem;
-  }
-  .pinterest {
-    display: none;
-  }
-}
-
-/* Simplified sponsor logos */
-
-.spons-logo-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.spons-logo {
-  margin: 0 20px 20px 20px;
+.general-hyperlink:hover {
+  color: var(--idec_light_purple_2);
 }
 
 /* ALL PURPOSE TEXT LIST STYLE
@@ -319,80 +81,78 @@ ol.text-list li ul li::marker {
   color: purple;
 }
 
-/* LIST STYLE FOR CALENDAR TABLE ITEMS
+/* JUMBOTRON (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.calendar-text-list {
-  list-style-position: outside;
-  margin: 0em;
-  padding-left: 1em;
-}
-.calendar-text-list li {
-  padding-left: 1em;
-  margin: 0 0 0.75em 0;
-}
-.calendar-text-list li::marker {
-  content: "●";
-  color: purple;
+.title-jumbo {
+  background-image: url("../img/hand.png"), url("../img/tree.png");
+  background-size: 600px, 1800px;
+  background-position: right, top;
+  background-repeat: no-repeat;
+  background-attachment: scroll, scroll;
 }
 
-.item-style-5 {
-  /* similar to item-style-1, but for unordered list items that need compact displays on small screens */
-  padding-left: 1em;
-  margin: 0 0 0.75em 0;
+.jumbo-quote {
+  background-color: rgba(233, 236, 239, 0.6);
+  border-radius: 2em;
+  padding-left: 0.2em;
+  padding-right: 0.5em;
 }
 
-.item-style-5::marker {
-  /* similar to item-style-1, but for unordered list items that need compact displays on small screens */
-  content: "●";
-  color: purple;
+@media (max-width: 1024px) {
+  .title-jumbo {
+    background-size: 500px, 1800px;
+  }
+}
+@media (max-width: 768px) {
+  .title-jumbo {
+    background-size: 300px, 1800px;
+  }
+}
+@media (max-width: 500px) {
+  .title-jumbo {
+    background-size: 250px, 1800px;
+  }
 }
 
-.text-list-3 {
-  /* nested lists */
-  list-style-position: outside;
-  margin: 0em;
-  padding-left: 3em;
-}
-
-.item-style-1::marker {
-  /* most unordered list items */
-  content: "●";
-  color: purple;
-}
-
-.item-style-1 {
-  /* unordered list items with long texts */
-  padding-left: 2em;
-  margin: 0 0 0.75em 0;
-}
-
-.item-style-2 {
-  /* nested lists */
-  padding-left: 1em;
-  margin: 0 0 0.5em 0;
-}
-
-.item-style-3 {
-  /* ordered list items for instructions with subsections */
-  padding-left: 1em;
-  margin: 0 0 4em 0;
-}
-
-.item-style-4 {
-  /* general ordered list items */
-  padding-left: 1em;
-  margin: 0 0 0.75em 0;
-}
-
-/* MAIN THEME HYPERLINKS
+/* JUMBOTRON BUTTONS (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.general-hyperlink {
-  color: var(--idec_light_purple_1);
-  font-weight: bold;
+.btn-huge {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  font-size: 25px;
+  background-color: rgba(233, 236, 239, 0.7);
 }
 
-.general-hyperlink:hover {
-  color: var(--idec_light_purple_2);
+.btn-green {
+  color: var(--idec_primary_purple);
+  border-color: var(--idec_primary_green);
+}
+
+.btn-green:hover {
+  color: var(--pseudo_white);
+  background-color: var(--idec_primary_green);
+  border-color: var(--idec_primary_green);
+}
+
+.btn-divider {
+  width: 3em;
+  height: auto;
+  display: inline-block;
+}
+
+@media (max-width: 760px) {
+  .btn-divider {
+    width: 0em;
+  }
+  .btn-green {
+    margin-bottom: 1em;
+  }
+  .btn-huge {
+    font-size: 1.2em;
+  }
 }
 
 /* HYPERLINKS ON NEWS CARD (Home)
@@ -405,50 +165,54 @@ ol.text-list li ul li::marker {
   color: var(--idec_light_purple_1);
 }
 
-/* ALERT BOX (Details for Registration)
+/* VIDEO FRAME (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.alert-1 {
-  /* Alert box on "Details for Registration" page */
-  padding: 20px;
-  background-color: #f44336; /* Red */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* WHO WE ARE BUTTON OVERLAY ON IMGS (Home)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.parent {
+  position: inline;
+  top: 0;
+  left: 0;
+}
+.img-1 {
+  position: top;
+  top: 0;
+  left: 0;
+  size: contain;
+}
+.img-2 {
+  position: absolute;
+  top: 0px;
+  left: 20%;
+  max-width: 60%;
+}
+
+.parent .btn {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
-  margin-bottom: 15px;
-}
-
-/* VOLUNTEER CARD (About Us)
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.volunteer-card {
-  width: 12rem;
-}
-
-.volunteer-card span {
-  color: #2a206a;
-}
-
-.volunteer-card span.name {
-  font-size: 1rem;
-  font-weight: bold;
-}
-
-.volunteer-card span.role {
-  font-size: 0.8rem;
-}
-
-.volunteer-card img {
-  /* about_us page headshots */
-  padding: 0.3rem;
-  background-color: #f8f9fa;
-  border: 3px solid #325475;
-  border-radius: 45rem;
-  max-width: 90%;
-  margin: 1rem;
-  margin-bottom: 0.2rem;
-}
-
-.blockquote-box {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  padding: 0.5em 10px;
+  font-size: 11px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  border-width: medium;
 }
 
 /* TIMELINE (Home)
@@ -647,64 +411,190 @@ button {
   }
 }
 
-/* Register now buttons */
-
-.colored-text-1 {
-  /* To color dates as requested by Yang*/
-  color: #7a5fbc; /* should change to a diff color later to avoid confusion with links */
-}
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.btn-green {
-  color: var(--idec_primary_purple);
-  border-color: var(--idec_primary_green);
-}
-
-.btn-green:hover {
-  color: var(--pseudo_white);
-  background-color: var(--idec_primary_green);
-  border-color: var(--idec_primary_green);
-}
-
-.btn-divider {
-  width: 3em;
-  height: auto;
-  display: inline-block;
-}
-
-@media (max-width: 760px) {
-  .btn-divider {
-    width: 0em;
-  }
-  .btn-green {
-    margin-bottom: 1em;
-  }
-  .btn-huge {
-    font-size: 1.2em;
-  }
-}
-
-/* VIDEO FRAME (Home)
+/* SPONSOR LOGOS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
+.spons-logo-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.videoWrapper iframe {
+.spons-logo {
+  margin: 0 20px 20px 20px;
+}
+
+/* FOOTER DIV
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.card-footer {
+  background-image: url("../img/bluephoto.png");
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.card-footer img {
+  left: 0;
+  bottom: 0;
+}
+
+/* FOOTER FEEDBACK FORM
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.jumbo-form {
+  background: rgba(213, 207, 255, 0.4);
+}
+
+.form-control {
+  background: rgba(213, 207, 255, 0.8);
+}
+
+/* FOOTER SOCIAL MEDIA ICONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Wrapper */
+.icon-button {
+  background-color: white;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+}
+
+/* Circle */
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+.icon-button:hover span {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 2.6rem;
+  margin: -1.3rem;
+}
+
+/* Icons */
+.icon-button i {
+  background: none;
+  color: white;
+  height: 2.6rem;
+  left: 0;
+  line-height: 2.6rem;
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 2.6rem;
+  z-index: 10;
+}
+.facebook span {
+  background-color: #3b5998;
+}
+.instagram span {
+  background-color: #e1306c;
+}
+.twitter span {
+  background-color: #4099ff;
+}
+.linkedin span {
+  background-color: #2867b2;
+}
+.github span {
+  background-color: #34526f;
+}
+.youtube span {
+  background-color: #bb0000;
+}
+.pinterest span {
+  background-color: #cb2027;
+}
+
+.icon-button .fa-twitter {
+  color: #4099ff;
+}
+.icon-button .fa-facebook {
+  color: #3b5998;
+}
+.icon-button .fa-github {
+  color: #34526f;
+}
+.icon-button .icon-google-plus {
+  color: #db5a3c;
+}
+.icon-button .fa-instagram {
+  color: #e1306c;
+}
+.icon-button .fa-youtube {
+  color: #bb0000;
+}
+.icon-button .fa-linkedin {
+  color: #2867b2;
+}
+
+.icon-button:hover .fa-twitter {
+  color: white;
+}
+.icon-button:hover .fa-facebook {
+  color: white;
+}
+.icon-button:hover .fa-linkedin {
+  color: white;
+}
+.icon-button:hover .fa-github {
+  color: white;
+}
+.icon-button:hover .fa-instagram {
+  color: white;
+}
+.icon-button:hover .fa-youtube,
+.icon-button:hover .fa-pinterest {
+  color: white;
+}
+
+@media all and (max-width: 680px) {
+  .icon-button {
+    border-radius: 1.6rem;
+    font-size: 0.8rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    margin: -0.8rem;
+  }
+
+  /* Icons */
+  .icon-button i {
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+  .pinterest {
+    display: none;
+  }
 }
 
 /* NEB ADVERTISEMENT BANNER (Home)
@@ -762,4 +652,68 @@ button {
   .ad-banner button.info-btn {
     margin-top: 1em;
   }
+}
+
+/* LIST STYLE FOR CALENDAR TABLE ITEMS (Calendar)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.calendar-text-list {
+  list-style-position: outside;
+  margin: 0em;
+  padding-left: 1em;
+}
+.calendar-text-list li {
+  padding-left: 1em;
+  margin: 0 0 0.75em 0;
+}
+.calendar-text-list li::marker {
+  content: "●";
+  color: purple;
+}
+
+/* ALERT BOX (Details for Registration)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.alert-1 {
+  /* Alert box on "Details for Registration" page */
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* VOLUNTEER CARD (About Us)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.volunteer-card {
+  width: 12rem;
+}
+
+.volunteer-card span {
+  color: #2a206a;
+}
+
+.volunteer-card span.name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.volunteer-card span.role {
+  font-size: 0.8rem;
+}
+
+.volunteer-card img {
+  /* about_us page headshots */
+  padding: 0.3rem;
+  background-color: #f8f9fa;
+  border: 3px solid #325475;
+  border-radius: 45rem;
+  max-width: 90%;
+  margin: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+/* BLOCKQUOTES (EBB Page)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.blockquote-box {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  padding: 0.5em 10px;
 }
