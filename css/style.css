@@ -441,6 +441,7 @@ ol.text-list li ul li::marker {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .jumbo-form {
   background: rgba(213, 207, 255, 0.4);
+  padding: 2em;
 }
 
 .form-control {
