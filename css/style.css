@@ -711,6 +711,39 @@ ol.text-list li ul li::marker {
   margin-bottom: 0.2rem;
 }
 
+/* RESULTS BLOCKS (Results Page)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.prize-content h3 {
+  position: relative;
+  top: 0.8em;
+  font-weight: bold ;
+}
+
+.prize-content h3 span {
+  background-color: white;
+}
+
+.prize-content span.winner {
+  color: var(--idec_primary_green);
+}
+
+.prize-content > div {
+  border: 4px dashed #2a206a;
+  border-radius: 4em;
+}
+
+.prize-content div div p {
+  color: #595959;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+}
+
+.prize-content div div p .winner {
+  color: var(--idec_primary_green);
+}
+
 /* BLOCKQUOTES (EBB Page)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .blockquote-box {

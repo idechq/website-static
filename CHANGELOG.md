@@ -2,7 +2,9 @@
 
 ## Unreleased
 
-- Refactor all style.css to make the site maintainable
+## 2021-11-01 22:53 (Trevor)
+
+- Added Results Page
 
 ## 2021-10-19 02:00 (Trevor)
 
