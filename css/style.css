@@ -713,7 +713,6 @@ ol.text-list li ul li::marker {
 
 /* RESULTS BLOCKS (Results Page)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .prize-content h3 {
   position: relative;
   top: 0.8em;
@@ -742,6 +741,27 @@ ol.text-list li ul li::marker {
 
 .prize-content div div p .winner {
   color: var(--idec_primary_green);
+}
+
+
+@media (max-width: 768px) {
+
+  h3 {
+    font-size: 100%;
+  }
+
+  .prize-content > div {
+  border: 2px dashed #2a206a;
+  border-radius: 4em;
+}
+
+  .prize-content h3 {
+  top: 1.2em;
+}
+.prize-content div div p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
 }
 
 /* BLOCKQUOTES (EBB Page)
