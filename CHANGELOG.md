@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 2021-11-03 16:20 (Trevor)
+
+- Remove Minyang Xu from `About Us` page
+- Fix wrong alt captions
+
 ## 2021-11-01 22:53 (Trevor)
 
 - Added Results Page
