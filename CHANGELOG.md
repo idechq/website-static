@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 2021-12-04 17:50 (Trevor)
+
+- Add hyperlinks to Team Wiki Page and Team Report Page on Results Page
+
 ## 2021-11-03 16:20 (Trevor)
 
 - Remove Minyang Xu from `About Us` page
