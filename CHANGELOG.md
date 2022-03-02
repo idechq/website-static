@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 2022-03-02 21:29 (Trevor)
+
+- Add message to denote competition is over.
+
 ## 2021-12-04 17:50 (Trevor)
 
 - Add hyperlinks to Team Wiki Page and Team Report Page on Results Page
