@@ -83,12 +83,10 @@ ol.text-list li ul li::marker {
 
 /* JUMBOTRON (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.title-jumbo {
-  background-image: url("../img/hand.png"), url("../img/tree.png");
-  background-size: 600px, 1800px;
-  background-position: right, top;
+.title-jumbo {    
+  background-image: url("../img/picture1.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-attachment: scroll, scroll;
 }
 
 .jumbo-quote {
