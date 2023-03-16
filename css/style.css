@@ -95,25 +95,6 @@ ol.text-list li ul li::marker {
   padding-left: 0.2em;
   padding-right: 0.5em;
 }
-
-@media (max-width: 1024px) {
-  .title-jumbo {
-    background-size: 500px, 1800px;
-  }
-}
-@media (max-width: 768px) {
-  .title-jumbo {
-    background-size: 300px, 1800px;
-  }
-}
-@media (max-width: 500px) {
-  .title-jumbo {
-    background-size: 250px, 1800px;
-  }
-}
-
-/* JUMBOTRON BUTTONS (Home)
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .btn-huge {
   padding-top: 10px;
   padding-left: 50px;
@@ -123,6 +104,80 @@ ol.text-list li ul li::marker {
   font-size: 25px;
   background-color: rgba(233, 236, 239, 0.7);
 }
+
+@media (max-width: 1024px) {
+  .title-jumbo {    
+    background-image: url("../img/picture1.jpg");
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .nsp {
+    display: none;
+  }
+}
+
+  @media (max-width: 700px) {
+    .title-jumbo {    
+      background-image: url("../img/picture1.jpg");
+      background-size: 130%;
+      background-repeat: no-repeat;
+      background-position: top center;
+    }
+    .text-left {
+      font-size: 150%;
+    }
+    .jumbo-quote {
+      font-size: 10%;
+    }
+    .nsp {
+      display: none;
+    }
+    .btn-huge {
+      padding-top: 0px;
+      padding-left: 2px;
+      padding-right: 2px;
+      padding-bottom: 0px;
+      border-radius: 50px;
+      font-size: 1em;
+      background-color: rgba(233, 236, 239, 0.7);
+    }
+    .btn {
+      display:inline;
+    }
+  }
+
+@media (max-width: 500px) {
+  .title-jumbo {    
+    background-image: url("../img/picture1.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .text-left {
+    font-size: 150%;
+  }
+  .jumbo-quote {
+    font-size: 10%;
+  }
+  .nsp {
+    display: none;
+  }
+  .btn-huge {
+    padding-top: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+    border-radius: 50px;
+    font-size: 1em;
+    background-color: rgba(233, 236, 239, 0.7);
+  }
+  .btn {
+    display:inline;
+  }
+}
+/* JUMBOTRON BUTTONS (Home)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .btn-green {
   color: var(--idec_primary_purple);
@@ -150,6 +205,12 @@ ol.text-list li ul li::marker {
   }
   .btn-huge {
     font-size: 1.2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn-huge {
+    font-size: 1em;
   }
 }
 
