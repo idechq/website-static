@@ -95,7 +95,7 @@ ol.text-list li ul li::marker {
   padding-left: 0.2em;
   padding-right: 0.5em;
 }
-
+/*
 @media (max-width: 1024px) {
   .title-jumbo {
     background-size: 500px, 1800px;
@@ -111,7 +111,7 @@ ol.text-list li ul li::marker {
     background-size: 250px, 1800px;
   }
 }
-
+*/
 /* JUMBOTRON BUTTONS (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .btn-huge {
