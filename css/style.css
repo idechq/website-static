@@ -124,8 +124,19 @@ ol.text-list li ul li::marker {
 @media (max-width: 500px) {
   .title-jumbo {    
     background-image: url("../img/picture_phone.jpg");
-    background-size: 160%;
+    background-size: 100%;
     background-repeat: no-repeat;
+  }
+  .nsp {
+    height: 1px;
+  }
+  .text-muted {
+    font-size: 1rem;
+  }
+  .btn-huge {
+    display: inline;
+    padding: 5px;
+    margin: 2px;
   }
  
 }
@@ -162,6 +173,12 @@ ol.text-list li ul li::marker {
 }
 
 @media (max-width: 500px) {
+  .btn-divider {
+    width: 0em;
+  }
+  .btn-green {
+    margin-bottom: 1em;
+  }
   .btn-huge {
     font-size: 1em;
   }
