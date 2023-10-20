@@ -446,6 +446,7 @@ ol.text-list li ul li::marker {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .spons-logo {
