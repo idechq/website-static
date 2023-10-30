@@ -1,72 +1,69 @@
 var teamInfo = {
-  "Team_GEnoM_-_iGEM_IIT_MADRAS": {
-    "name": "GEnoM - iGEM IIT Madras",
-    "reportID" : "000000",
+  "NNU-China": {
+    "name": "NNU-China",
+    "reportID" : "Z5OQJA67DTB7",
   },
-  "NAU-CHINA-DE": {
-    "name": "NAU-CHINA-DE",
-    "reportID" : "000001",
-  },
-  "NEFU_China": {
-    "name": "NEFU_China",
-    "reportID" : "000002",
-  },
-  "USTC": {
-    "name": "USTC",
-    "reportID" : "000003",
-  },
-  "HUST-China": {
-    "name": "HUST-China",
-    "reportID" : "000003",
-  },
-  "SUSTech_Shenzhen": {
-    "name": "SUSTech_Shenzhen_2022",
-    "reportID" : "000005",
-  },
-  "VE_CPU": {
-    "name": "VE-CPU",
-    "reportID" : "000006",
-  },
-  "Edinburgh-UHAS_Ghana": {
-    "name": "Edinburgh-UHAS_Ghana",
-    "reportID": "000007",
-  },
-  "OUC_China": {
-    "name": "OUC_China",
-    "reportID" : "000008",
-  },
-  "OUC-Marine_Drugs": {
-    "name": "OUC-Marine Drugs",
-    "reportID" : "000009",
-  },
-  "CSU_CHINA": {
-    "name": "CSU_CHINA2022",
-    "reportID" : "000009",
-  },
-  "Team_GEnoM_-_iGEM_IIT_MADRAS": {
-    "name": "Team GEnoM - iGEM IIT MADRAS",
-    "reportID" : "000009",
+  "Evolution_Suisse": {
+    "name": "Evolution Suisse",
+    "reportID" : "I3MN61ZHL3U7",
   },
   "Tongji_China": {
     "name": "Tongji_China",
-    "reportID" : "000009",
+    "reportID" : "1CYCTJXTNH7T",
+  },
+  "NAU-CHINA-DE": {
+    "name": "NAU-CHINA-DE",
+    "reportID" : "7L46IJ8J17U5",
+  },
+  "Ferroptosis_Expedition-NMU_China": {
+    "name": "Ferroptosis Expedition-NMU_China",
+    "reportID" : "UCVRU4XG8NKG",
+  },
+  "OUC_DE": {
+    "name": "OUC_DE",
+    "reportID" : "2HSGA2RY2LCV",
+  },
+  "WSNJ-A": {
+    "name": "WSNJ-A",
+    "reportID" : "68TECCBMWARC",
+  },
+  "Tidetron": {
+    "name": "Tidetron",
+    "reportID": "X5W52XZHT6ED",
+  },
+  "Edinburgh": {
+    "name": "Edinburgh",
+    "reportID" : "P3Y8LPP45NSU",
+  },
+  "USTC-2023": {
+    "name": "USTC-2023",
+    "reportID" : "Z36JV0AL15VZ",
   },
   "CPU_CHINA": {
     "name": "CPU_CHINA",
-    "reportID" : "000009",
+    "reportID" : "H9MRU3FDUT4B",
+  },
+  "OUC-Marine_Drugs": {
+    "name": "OUC-Marine Drugs",
+    "reportID" : "3FKVL2E7V3TN",
+  },
+  "NEFU_China": {
+    "name": "NEFU_China",
+    "reportID" : "7XTRBE0LL8YZ",
+  },
+  "NKLMI-NK_drug": {
+    "name": "NKLMI-NK drug",
+    "reportID" : "Z3I4VV179XJJ",
   },
   "LZU-CHINA": {
-    "name": "LZU-CHINA",
-    "reportID" : "000009",
-  },
-    "DU_DTU_NSUT-Delhi": {
-    "name": "OriGeneNation",
-    "reportID" : "000009",
+    "name": "LZU_China",
+    "reportID" : "FJ3LMTLEVOMF",
   },
 };
 
 function updateTeamInfoModal(id) {
   document.querySelector('#teamInfoModalLabel').innerHTML = teamInfo[id].name;
-  document.querySelector('#teamWikiLink').setAttribute('href', `https://idec-teams.github.io/2022_${id}`);
-  /**document.querySelector('#teamReportLink').setAttribute('href', `https://arxiv.idec.io/article/${teamInfo[id].reportID}`);**/
+  document.querySelector('#teamWikiLink').setAttribute('href', `https://idec-teams.github.io/2023_${id}`);
+  document.querySelector('#teamReportLink').setAttribute('href', `https://arxiv.idec.io/article/${teamInfo[id].reportID}`);
 }
+
