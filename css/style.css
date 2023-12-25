@@ -808,3 +808,12 @@ ol.text-list li ul li::marker {
   text-decoration: underline !important;
   cursor: pointer !important;
 }
+
+/* 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.imageList{
+  white-space: nowrap ;
+img{
+  margin-right:5px;
+}
+}
