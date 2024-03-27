@@ -83,10 +83,13 @@ ol.text-list li ul li::marker {
 
 /* JUMBOTRON (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.title-jumbo {    
-  background-image: url("../img/picture1.jpg");
+.title-jumbo {
+  background-image: url("../img/background.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.text-left {
+  color: #f0f0f0;
 }
 
 .jumbo-quote {
@@ -106,24 +109,24 @@ ol.text-list li ul li::marker {
 }
 
 @media (max-width: 1024px) {
-  .title-jumbo {    
-    background-image: url("../img/picture1.jpg");
+  .title-jumbo {
+    background-image: url("../img/background.jpg");
     background-size: 130%;
     background-repeat: no-repeat;
     background-position: top center;
   }
 }
 @media (max-width: 980px) {
-    .title-jumbo {    
-      background-image: url("../img/picture_phone.jpg");
-      background-size: 100%;
-      background-repeat: no-repeat;
-    }
+  .title-jumbo {
+    background-image: url("../img/background-2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
+}
 
 @media (max-width: 500px) {
-  .title-jumbo {    
-    background-image: url("../img/picture_phone.jpg");
+  .title-jumbo {
+    background-image: url("../img/background-2.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -138,7 +141,6 @@ ol.text-list li ul li::marker {
     padding: 5px;
     margin: 2px;
   }
- 
 }
 /* JUMBOTRON BUTTONS (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -746,7 +748,7 @@ ol.text-list li ul li::marker {
 .prize-content h3 {
   position: relative;
   top: 0.8em;
-  font-weight: bold ;
+  font-weight: bold;
 }
 
 .prize-content h3 span {
@@ -773,25 +775,23 @@ ol.text-list li ul li::marker {
   color: var(--idec_primary_green);
 }
 
-
 @media (max-width: 768px) {
-
   h3 {
     font-size: 100%;
   }
 
   .prize-content > div {
-  border: 2px dashed #2a206a;
-  border-radius: 4em;
-}
+    border: 2px dashed #2a206a;
+    border-radius: 4em;
+  }
 
   .prize-content h3 {
-  top: 1.2em;
-}
-.prize-content div div p {
-  font-size: 1em;
-  margin-bottom: 1em;
-}
+    top: 1.2em;
+  }
+  .prize-content div div p {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
 }
 
 /* BLOCKQUOTES (EBB Page)
@@ -811,9 +811,9 @@ ol.text-list li ul li::marker {
 
 /* 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.imageList{
-  white-space: nowrap ;
-img{
-  margin-right:5px;
-}
+.imageList {
+  white-space: nowrap;
+  img {
+    margin-right: 5px;
+  }
 }
