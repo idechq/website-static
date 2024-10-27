@@ -1,69 +1,65 @@
 var teamInfo = {
-  "NNU-China": {
-    "name": "NNU-China",
-    "reportID" : "Z5OQJA67DTB7",
-  },
-  "Evolution_Suisse": {
-    "name": "Evolution Suisse",
-    "reportID" : "I3MN61ZHL3U7",
-  },
-  "Tongji_China": {
-    "name": "Tongji_China",
-    "reportID" : "1CYCTJXTNH7T",
-  },
-  "NAU-CHINA-DE": {
-    "name": "NAU-CHINA-DE",
-    "reportID" : "7L46IJ8J17U5",
-  },
-  "Ferroptosis_Expedition-NMU_China": {
-    "name": "Ferroptosis Expedition-NMU_China",
-    "reportID" : "UCVRU4XG8NKG",
-  },
   "OUC_DE": {
     "name": "OUC_DE",
-    "reportID" : "2HSGA2RY2LCV",
+    "reportID" : "NY96ZYL51OOV",
   },
-  "WSNJ-A": {
-    "name": "WSNJ-A",
-    "reportID" : "68TECCBMWARC",
+  "Northwest_Union": {
+    "name": "Northwest Union",
+    "reportID" : "6ENEKBZCEJVQ",
   },
-  "Tidetron": {
-    "name": "Tidetron",
-    "reportID": "X5W52XZHT6ED",
+  "SynthImmunol_NMU": {
+    "name": "SynthImmunol_NMU",
+    "reportID" : "D5PKP69HH444",
   },
-  "Edinburgh": {
-    "name": "Edinburgh",
-    "reportID" : "P3Y8LPP45NSU",
+  "iTidetron": {
+    "name": "iTidetron",
+    "reportID" : "L8R1VZR2D5Q3",
   },
-  "USTC-2023": {
-    "name": "USTC-2023",
-    "reportID" : "Z36JV0AL15VZ",
+  "STU_-China": {
+    "name": "STU -China",
+    "reportID" : "P38LFWMDFH7I",
   },
   "CPU_CHINA": {
     "name": "CPU_CHINA",
-    "reportID" : "H9MRU3FDUT4B",
+    "reportID" : "O6J0KD89BV0C",
   },
-  "OUC-Marine_Drugs": {
-    "name": "OUC-Marine Drugs",
-    "reportID" : "3FKVL2E7V3TN",
+  "NKLII-Evolution-China": {
+    "name": "NKLII-Evolution-China",
+    "reportID" : "BVYOLQA5XAG8",
+  },
+  "Evolution_Suisse": {
+    "name": "Evolution Suisse",
+    "reportID": "CBGHQSPMIZ63",
+  },
+  "USTC": {
+    "name": "USTC",
+    "reportID" : "FU7WLUXKD2K5",
+  },
+  "NJTECH-CHINA-A": {
+    "name": "NJTECH-CHINA-A",
+    "reportID" : "NQZHZQ6TTHS1",
   },
   "NEFU_China": {
     "name": "NEFU_China",
-    "reportID" : "7XTRBE0LL8YZ",
+    "reportID" : "VHN0LF0WQX9T",
   },
-  "NKLMI-NK_drug": {
-    "name": "NKLMI-NK drug",
-    "reportID" : "Z3I4VV179XJJ",
+  "Edinburgh": {
+    "name": "Edinburgh",
+    "reportID" : "3SW814L0536J",
   },
-  "LZU-CHINA": {
-    "name": "LZU_China",
-    "reportID" : "FJ3LMTLEVOMF",
+  "SUSTech_Med": {
+    "name": "SUSTech Med",
+    "reportID" : "VKCGSA4NSJD3",
+  },
+  "NAU-CHINA-DE": {
+    "name": "NAU-CHINA-DE",
+    "reportID" : "3TID6KAMHMVT",
   },
 };
 
 function updateTeamInfoModal(id) {
   document.querySelector('#teamInfoModalLabel').innerHTML = teamInfo[id].name;
-  document.querySelector('#teamWikiLink').setAttribute('href', `https://idec-teams.github.io/2023_${id}`);
+  document.querySelector('#teamWikiLink').setAttribute('href', `https://idec-teams.github.io/2024_${id}`);
   document.querySelector('#teamReportLink').setAttribute('href', `https://arxiv.idec.io/article/${teamInfo[id].reportID}`);
 }
 
