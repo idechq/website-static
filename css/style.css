@@ -83,11 +83,11 @@ ol.text-list li ul li::marker {
 
 /* JUMBOTRON (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.title-jumbo {
-  background-image: url("../img/background.jpg");
+/* .title-jumbo {
+  background-image: url("../img/background.png");
   background-size: 100%;
   background-repeat: no-repeat;
-}
+} */
 .text-left {
   color: #f0f0f0;
 }
@@ -816,4 +816,21 @@ ol.text-list li ul li::marker {
   img {
     margin-right: 5px;
   }
+}
+
+/* background image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.img-small {
+  display: none;
+  }
+  .img-medium {
+  display: none;
+  }
+@media (max-width: 576px) {
+    .img-large {
+    display: none;
+    }
+    .img-small {
+    display: block;
+    }
 }
