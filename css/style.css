@@ -83,11 +83,11 @@ ol.text-list li ul li::marker {
 
 /* JUMBOTRON (Home)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.title-jumbo {
-  background-image: url("../img/background.jpg");
+/* .title-jumbo {
+  background-image: url("../img/background.png");
   background-size: 100%;
   background-repeat: no-repeat;
-}
+} */
 .text-left {
   color: #f0f0f0;
 }
@@ -166,9 +166,9 @@ ol.text-list li ul li::marker {
   .btn-divider {
     width: 0em;
   }
-  .btn-green {
+  /* .btn-green {
     margin-bottom: 1em;
-  }
+  } */
   .btn-huge {
     font-size: 1.2em;
   }
@@ -817,3 +817,56 @@ ol.text-list li ul li::marker {
     margin-right: 5px;
   }
 }
+
+/* background image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.title-jumbo .img-small {
+  display: none;
+  }
+  .title-jumbo .img-medium {
+  display: none;
+  }
+@media (max-width: 576px) {
+    .title-jumbo .img-large {
+    display: none;
+    }
+    .title-jumbo .img-small {
+    display: block;
+    }
+}
+/* RegisterBtn
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.RegisterBtn {
+  position: relative;
+  top: -100px;
+}
+@media (max-width: 768px) {
+  .RegisterBtn {
+    position: relative;
+    top: -50px;
+  }
+}
+
+/* NAV
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.nav-item{
+  margin-right: 60px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .RegisterBtn {
+    position: relative;
+    top: -50px;
+  }
+}
+.nav-item{
+  margin-right: 60px;
+  font-size: 1.5rem;
+}
+/* @media (max-width: 1080px) {
+  .nav-item{
+    margin-right: 30px;
+    font-size: 1.2rem;
+  }
+} */
