@@ -822,17 +822,17 @@ ol.text-list li ul li::marker {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .title-jumbo .img-small {
   display: none;
-  }
-  .title-jumbo .img-medium {
+}
+.title-jumbo .img-medium {
   display: none;
-  }
+}
 @media (max-width: 576px) {
-    .title-jumbo .img-large {
+  .title-jumbo .img-large {
     display: none;
-    }
-    .title-jumbo .img-small {
+  }
+  .title-jumbo .img-small {
     display: block;
-    }
+  }
 }
 /* RegisterBtn
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -849,7 +849,7 @@ ol.text-list li ul li::marker {
 
 /* NAV
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.nav-item{
+.nav-item {
   margin-right: 60px;
   font-size: 1.5rem;
 }
@@ -860,13 +860,13 @@ ol.text-list li ul li::marker {
     top: -50px;
   }
 }
-.nav-item{
+.nav-item {
   margin-right: 60px;
   font-size: 1.5rem;
 }
-/* @media (max-width: 1080px) {
-  .nav-item{
+@media (max-width: 1080px) {
+  .nav-item {
     margin-right: 30px;
     font-size: 1.2rem;
   }
-} */
+}
