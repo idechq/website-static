@@ -1,65 +1,61 @@
 var teamInfo = {
-  "OUC_DE": {
-    "name": "OUC_DE",
-    "reportID" : "NY96ZYL51OOV",
+  "OUC-Marine_drugs": {
+    "name": "OUC-Marine Drugs",
+    "reportID" : "1QQGEIJIC94H",
   },
-  "Northwest_Union": {
-    "name": "Northwest Union",
-    "reportID" : "6ENEKBZCEJVQ",
+  "PIM-VCA": {
+    "name": "PIM-VCA",
+    "reportID" : "29SYDHDA85W1",
   },
-  "SynthImmunol_NMU": {
-    "name": "SynthImmunol_NMU",
-    "reportID" : "D5PKP69HH444",
+  "PIM-NEBS": {
+    "name": "PIM-NEBS",
+    "reportID" : "3OSN8LFTRVA6",
   },
-  "iTidetron": {
-    "name": "iTidetron",
-    "reportID" : "L8R1VZR2D5Q3",
+  "OUC-DE": {
+    "name": "OUC-DE",
+    "reportID" : "4D3XOJ4S1IW4",
   },
-  "STU_-China": {
-    "name": "STU -China",
-    "reportID" : "P38LFWMDFH7I",
+  "OncoStrat_NMU": {
+    "name": "OncoStrat_NMU",
+    "reportID" : "51WDA5GHSKBM",
+  },
+  "McMaster_BioDesign": {
+    "name": "McMaster BioDesign",
+    "reportID" : "68GY3U1QUZPS",
   },
   "CPU_CHINA": {
     "name": "CPU_CHINA",
-    "reportID" : "O6J0KD89BV0C",
+    "reportID" : "7VS6OXYLFZH2",
   },
-  "NKLII-Evolution-China": {
-    "name": "NKLII-Evolution-China",
-    "reportID" : "BVYOLQA5XAG8",
-  },
-  "Evolution_Suisse": {
-    "name": "Evolution Suisse",
-    "reportID": "CBGHQSPMIZ63",
-  },
-  "USTC": {
-    "name": "USTC",
-    "reportID" : "FU7WLUXKD2K5",
-  },
-  "NJTECH-CHINA-A": {
-    "name": "NJTECH-CHINA-A",
-    "reportID" : "NQZHZQ6TTHS1",
-  },
-  "NEFU_China": {
-    "name": "NEFU_China",
-    "reportID" : "VHN0LF0WQX9T",
+  "Evolution_Suisse_2025": {
+    "name": "Evolution Suisse 2025",
+    "reportID": "8I2EJYK5SXGI",
   },
   "Edinburgh": {
     "name": "Edinburgh",
-    "reportID" : "3SW814L0536J",
+    "reportID" : "9IIQRQ00VV3D",
   },
-  "SUSTech_Med": {
-    "name": "SUSTech Med",
-    "reportID" : "VKCGSA4NSJD3",
+  "NEFU-China": {
+    "name": "NEFU_China",
+    "reportID" : "1019MXXEN2MH",
   },
-  "NAU-CHINA-DE": {
-    "name": "NAU-CHINA-DE",
-    "reportID" : "3TID6KAMHMVT",
+  "LZDX": {
+    "name": "LZDX",
+    "reportID" : "11FE5WA8HLYR",
   },
+  "LZU-MEDICINE-CHINA": {
+    "name": "LZU-MEDICINE-CHINA",
+    "reportID" : "12I9HBUOE52J",
+  },
+  "SynthImmunol_NMU": {
+    "name": "SynthImmunol_NMU",
+    "reportID" : "13FWQE3XNLNO",
+  }
 };
 
 function updateTeamInfoModal(id) {
   document.querySelector('#teamInfoModalLabel').innerHTML = teamInfo[id].name;
-  document.querySelector('#teamWikiLink').setAttribute('href', `https://idec-teams.github.io/2024_${id}`);
+  document.querySelector('#teamWikiLink').setAttribute('href', `https://idec-teams.github.io/2025_${id}`);
   document.querySelector('#teamReportLink').setAttribute('href', `https://arxiv.idec.io/article/${teamInfo[id].reportID}`);
 }
 
