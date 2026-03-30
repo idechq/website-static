@@ -3,7 +3,7 @@
 
 :root {
   --idec_primary_purple: #2a206a;
-  --idec_primary_green: #00ad66;
+  --idec_primary_green: #F2C13C;
   --idec_light_purple_1: #7a5fbc;
   --idec_light_purple_2: #926aba;
   --pseudo_white: #fff;
@@ -108,28 +108,8 @@ ol.text-list li ul li::marker {
   background-color: rgba(233, 236, 239, 0.7);
 }
 
-@media (max-width: 1024px) {
-  .title-jumbo {
-    background-image: url("../img/background.jpg");
-    background-size: 130%;
-    background-repeat: no-repeat;
-    background-position: top center;
-  }
-}
-@media (max-width: 980px) {
-  .title-jumbo {
-    background-image: url("../img/background-2.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-}
 
 @media (max-width: 500px) {
-  .title-jumbo {
-    background-image: url("../img/background-2.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
   .nsp {
     height: 1px;
   }
