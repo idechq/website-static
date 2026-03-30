@@ -3,7 +3,7 @@ var currentScroll = 0;
 function autoScroll(elementId, interval) {
     var element = document.getElementById(elementId);
     var scrollWidth = element.scrollWidth;
-    console.log(scrollWidth);  
+    // console.log(scrollWidth);  
     auto = setInterval(function() {
       if (currentScroll < scrollWidth) {
         console.log(currentScroll);
