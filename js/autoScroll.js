@@ -6,7 +6,7 @@ function autoScroll(elementId, interval) {
     // console.log(scrollWidth);  
     auto = setInterval(function() {
       if (currentScroll < scrollWidth) {
-        console.log(currentScroll);
+        // console.log(currentScroll);
         currentScroll ++; 
         element.scrollLeft = currentScroll;
       } else {

@@ -220,7 +220,7 @@ ol.text-list li ul li::marker {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 11px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   cursor: pointer;
   border-radius: 25px;
   border-width: medium;
