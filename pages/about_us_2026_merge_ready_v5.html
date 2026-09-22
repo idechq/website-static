@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   iDEC - International Directed Evolution Competition
+  </title>
+  <meta content="Learn about iDEC, the International Directed Evolution Competition, our mission, history, Executive Committee, Board of Trustees, team and international community." name="description"/>
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap-4.4.1.css" rel="stylesheet"/>
+  <!-- iDEC CSS stylesheet -->
+  <link href="../css/style.css" rel="stylesheet"/>
+  <!-- Favicons -->
+  <link href="../img/favicon/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"/>
+  <link href="../img/favicon/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60"/>
+  <link href="../img/favicon/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+  <link href="../img/favicon/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+  <link href="../img/favicon/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+  <link href="../img/favicon/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+  <link href="../img/favicon/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+  <link href="../img/favicon/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+  <link href="../img/favicon/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="../img/favicon/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+  <link href="../img/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="../img/favicon/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+  <link href="../img/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="../img/favicon/manifest.json" rel="manifest"/>
+  <meta content="#ffffff" name="msapplication-TileColor"/>
+  <meta content="../img/favicon/ms-icon-144x144.png" name="msapplication-TileImage"/>
+  <meta content="#ffffff" name="theme-color"/>
+  <style>
+   /* 2026 About Us people section — scoped to this page */
+    .people-section { margin: 3.5rem 0; }
+    .people-intro { max-width: 760px; margin: .5rem auto 1.5rem; color: #666; }
+    .team-group { margin: 2rem 0 2.5rem; }
+    .team-group h3, .alumni-section h3 { color: #2a206a; margin-bottom: 1.25rem; }
+
+    .people-card {
+      width: 190px;
+      text-align: center;
+      padding: .5rem .5rem 1rem;
+    }
+    .people-card img,
+    .people-photo-placeholder {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      display: flex;
+      margin: 0 auto .65rem;
+      object-fit: cover;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      background: #f3f1f8;
+      border: 1px solid #e5e1ef;
+    }
+    .people-photo-placeholder span {
+      color: #888;
+      font-size: .78rem;
+      line-height: 1.2;
+      padding: 1rem;
+    }
+    .people-card .name {
+      display: block;
+      color: #222;
+      font-weight: 600;
+      line-height: 1.25;
+      margin-top: .35rem;
+    }
+    .people-card .role {
+      display: block;
+      color: #777;
+      font-size: .82rem;
+      line-height: 1.3;
+      margin-top: .25rem;
+    }
+
+    .executive-card img,
+    .executive-card .people-photo-placeholder { width: 160px; height: 160px; }
+    .trustee-card img,
+    .trustee-card .people-photo-placeholder { width: 135px; height: 135px; }
+
+    .former-trustees-grid .people-card { width: 170px; }
+    .former-trustee-card img,
+    .former-trustee-card .people-photo-placeholder { width: 115px; height: 115px; }
+
+    .alumni-grid .people-card { width: 155px; }
+    .alumni-card img,
+    .alumni-card .people-photo-placeholder { width: 96px; height: 96px; }
+    .alumni-card .name { font-size: .9rem; }
+    .alumni-card .role { font-size: .72rem; }
+
+    @media (max-width: 575.98px) {
+      .people-card { width: 155px; }
+      .people-card img, .people-photo-placeholder { width: 115px; height: 115px; }
+      .executive-card img, .executive-card .people-photo-placeholder { width: 130px; height: 130px; }
+      .alumni-grid .people-card { width: 135px; }
+      .alumni-card img, .alumni-card .people-photo-placeholder { width: 86px; height: 86px; }
+    }
+   /* 2026 About Us P1 additions */
+    .about-jump-nav {
+      margin: 1rem auto 2rem;
+      text-align: center;
+      font-size: .92rem;
+    }
+    .about-jump-nav a {
+      color: #2a206a;
+      margin: 0 .45rem;
+      text-decoration: none;
+    }
+    .about-jump-nav a:hover,
+    .about-jump-nav a:focus {
+      text-decoration: underline;
+    }
+
+    .idec-numbers {
+      margin: 3rem 0 3.5rem;
+      padding: 2rem 0;
+    }
+    .number-card {
+      text-align: center;
+      padding: 1rem;
+    }
+    .number-card .number {
+      display: block;
+      color: #4b2396;
+      font-size: 4.2rem;
+      font-weight: 700;
+      line-height: 1;
+      margin-bottom: .85rem;
+    }
+    .number-card .number-label {
+      display: block;
+      color: #222;
+      font-size: 1.35rem;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+
+    .get-involved {
+      margin: 4rem 0 2.5rem;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      background: #f7f5fb;
+      border-radius: 8px;
+    }
+    .get-involved-links {
+      margin: 1rem 0;
+      color: #2a206a;
+      font-weight: 600;
+    }
+    .get-involved a {
+      color: #2a206a;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 767.98px) {
+      .number-card .number { font-size: 3.3rem; }
+      .number-card .number-label { font-size: 1.1rem; }
+      .about-jump-nav a {
+        display: inline-block;
+        margin: .25rem .4rem;
+      }
+    }
+   .about-jump-nav a:focus-visible,
+    .get-involved a:focus-visible,
+    .board-of-trustees a:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+    }
+   /* Long-form body copy: justified for improved editorial consistency */
+    section .col-lg-8.offset-lg-2:not(.text-center) > p,
+    section .col-lg-8.offset-lg-2:not(.text-center) .text-list,
+    section .col-lg-8.offset-lg-2:not(.text-center) .text-list li {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    /* Keep intentionally centered UI/summary copy centered */
+    .people-intro,
+    .people-card,
+    .about-jump-nav,
+    .idec-numbers,
+    .get-involved {
+      text-align: center;
+    }
+   /* Active Our Team portraits, including members moved back from Alumni */
+    #our-team .people-card img {
+      width: 135px;
+      height: 135px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  
+    /* Our Team alignment only — portrait and name share the same centre axis */
+    #our-team .people-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    #our-team .people-card .name {
+      width: 100%;
+      text-align: center;
+    }
+
+    #our-team .team-group > .row.justify-content-center > [class*="col-"] {
+      display: flex;
+      justify-content: center;
+    }
+
+  </style>
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand" href="../index.html">
+    <img alt="idec-logo" src="../img/logo.png" style="width: 40px"/>
+   </a>
+   <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+    <span class="navbar-toggler-icon">
+    </span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     <li class="nav-item active">
+      <a class="nav-link" href="../index.html" style="color: #2a206a">
+       Home
+       <span class="sr-only">
+        (current)
+       </span>
+      </a>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button" style="color: #2a206a">
+       About
+      </a>
+      <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="about_us.html" style="color: #2a206a">
+        About iDEC
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="" style="color: #2a206a">
+        History
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="https://2025.idec.io" style="color: #2a206a">
+        &nbsp;&nbsp;&nbsp;&nbsp;iDEC 2025
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="https://2024.idec.io" style="color: #2a206a">
+        &nbsp;&nbsp;&nbsp;&nbsp;iDEC 2024
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="https://2023.idec.io" style="color: #2a206a">
+        &nbsp;&nbsp;&nbsp;&nbsp;iDEC 2023
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="https://2022.idec.io" style="color: #2a206a">
+        &nbsp;&nbsp;&nbsp;&nbsp;iDEC 2022
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="https://2021.idec.io" style="color: #2a206a">
+        &nbsp;&nbsp;&nbsp;&nbsp;iDEC 2021
+       </a>
+      </div>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="news.html" style="color: #2a206a">
+       News
+      </a>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button" style="color: #2a206a">
+       Competition
+      </a>
+      <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="" style="color: #2a206a">
+        Registration
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="details_for_registration.html" style="color: #2a206a">
+        &nbsp;&nbsp;&nbsp;&nbsp;Details you need
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item reg_link" href="" style="color: #2a206a">
+        &nbsp;&nbsp;&nbsp;&nbsp;Register for iDEC 2026
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="requirements.html" style="color: #2a206a">
+        Requirements
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="tracks_and_awards.html" style="color: #2a206a">
+        Tracks and awards
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="ethics_biosafety_and_biosecurity.html" style="color: #2a206a">
+        Ethics, Biosafety and Biosecurity
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="aipolicy.html" style="color: #2a206a">
+        AI Policy
+       </a>
+      </div>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="calendar.html" style="color: #2a206a">
+       iDEC calendar
+      </a>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button" style="color: #2a206a">
+       Resources
+      </a>
+      <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="https://wiki.idec.io/resources/introduction/" style="color: #2a206a">
+        Wiki Resources
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="https://arxiv.idec.io/" style="color: #2a206a">
+        idecR&chi;iv
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="dropdown-item" href="https://wiki.idec.io/team_wiki/setup_wiki/" style="color: #2a206a">
+        Guidelines and Templates
+       </a>
+      </div>
+     </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0 d-none">
+     <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search"/>
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+      Search
+     </button>
+    </form>
+   </div>
+  </nav>
+  <section>
+   <div class="container">
+    <div class="row my-4">
+     <div class="col-lg-12 text-center">
+      <h1>
+       About us
+      </h1>
+     </div>
+    </div>
+    <div aria-label="About page sections" class="about-jump-nav">
+     <a href="#about-idec">
+      About iDEC
+     </a>
+     &middot;
+     <a href="#executive-committee">
+      Executive Committee
+     </a>
+     &middot;
+     <a href="#board-of-trustees">
+      Board of Trustees
+     </a>
+     &middot;
+     <a href="#our-team">
+      Our Team
+     </a>
+     &middot;
+     <a href="#alumni">
+      Alumni
+     </a>
+     &middot;
+     <a href="#equality-and-diversity">
+      Equality & Diversity
+     </a>
+    </div>
+    <div class="row my-4">
+     <div class="col-12 my-2 text-center">
+      <h2 id="about-idec">
+       <i class="fas fa-info-circle">
+       </i>
+       What is iDEC?
+      </h2>
+     </div>
+     <div class="col-lg-8 offset-lg-2 mt-2">
+      <p>
+       The International Directed Evolution Competition (iDEC) is an international scientific competition and community dedicated to advancing education, knowledge sharing and academic exchange in directed evolution.
+      </p>
+      <p>
+       Directed evolution uses iterative cycles of biological variation and selection to explore solutions that may be difficult to identify through rational design alone. Rather than replacing rational approaches, it provides a complementary strategy for engineering biological systems and expanding the possibilities of biological design.
+      </p>
+      <p>
+       Through its annual competition and wider scientific community, iDEC encourages students and early-career researchers to apply evolutionary approaches creatively to real-world challenges, exchange ideas across disciplines and institutions, and develop the skills needed to pursue innovative research.
+      </p>
+      <p>
+       Our ethos is
+       <strong>Innovation, Diversity, Equality, Co-construction &amp; Co-operation</strong>.
+      </p>
+     </div>
+    </div>
+    <div class="row my-4">
+     <div class="col-12 my-2 text-center">
+      <h2>
+       <i class="fas fa-globe">
+       </i>
+       Where do we come from?
+      </h2>
+     </div>
+     <div class="col-lg-8 offset-lg-2 mt-2">
+      <p>
+       iDEC was founded in Edinburgh and held its first competition in 2021. Since then, it has developed into an annual international competition and scientific community, with its in-person activities now based in Cambridge.
+      </p>
+      <p>
+       The origins of iDEC were inspired in part by the scientific journey of Charles Darwin, who studied at the University of Edinburgh before continuing his education at Christ&rsquo;s College, Cambridge. In 1831, he embarked on the voyage of HMS
+       <em>Beagle</em>, a journey that would profoundly influence the development of evolutionary thought. Nearly two centuries later, that spirit of exploration continues to resonate with iDEC: using evolution not only as something to understand, but also as a tool for exploring new possibilities in biological research and engineering.
+      </p>
+     </div>
+    </div>
+    <div aria-label="iDEC in numbers" class="idec-numbers">
+     <div class="row">
+      <div class="col-12 text-center mb-3">
+       <h2>
+        iDEC in Numbers
+       </h2>
+      </div>
+     </div>
+     <div class="row justify-content-center">
+      <div class="col-md-4 number-card">
+       <span class="number">
+        5
+       </span>
+       <span class="number-label">
+        Completed Editions
+       </span>
+      </div>
+      <div class="col-md-4 number-card">
+       <span class="number">
+        68
+       </span>
+       <span class="number-label">
+        International Teams
+       </span>
+      </div>
+      <div class="col-md-4 number-card">
+       <span class="number">
+        5+
+       </span>
+       <span class="number-label">
+        Countries
+       </span>
+      </div>
+     </div>
+    </div>
+    <!-- 2026 PEOPLE STRUCTURE -->
+    <div class="row my-4">
+     <div class="col-12 my-2 text-center">
+      <h2>
+       <i class="fas fa-users">
+       </i>
+       Who are we?
+      </h2>
+     </div>
+     <div class="col-lg-8 offset-lg-2 mt-2 text-center">
+      <p>
+       iDEC is supported by an international community of scientists, researchers, professionals and volunteers working across competition management, infrastructure, events, outreach, creative work, and responsible research.
+      </p>
+     </div>
+    </div>
+    <div class="people-section executive-committee" id="executive-committee">
+     <div class="row my-4">
+      <div class="col-12 text-center">
+       <h2>
+        Executive Committee
+       </h2>
+       <p class="people-intro">
+        Responsible for the strategic direction, competition management, and day-to-day operation of iDEC.
+       </p>
+      </div>
+     </div>
+     <div class="row justify-content-center">
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card executive-card">
+        <img alt="Zhongyi (Zachary) Liang" src="../img/headshots/Zhongyi Liang.png"/>
+        <span class="name">
+         Zhongyi (Zachary) Liang
+        </span>
+        <span class="role">
+         Chair of the Executive Committee
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card executive-card">
+        <img alt="Dr Yang Liu" src="../img/headshots/yang_liu_c.png"/>
+        <span class="name">
+         Dr Yang Liu
+        </span>
+        <span class="role">
+         Executive Committee Member
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card executive-card">
+        <img alt="Dr Nadanai Laohakunakorn" src="../img/headshots/nadanai_laohakunakorn.png"/>
+        <span class="name">
+         Dr Nadanai Laohakunakorn
+        </span>
+        <span class="role">
+         Treasurer
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="people-section board-of-trustees" id="board-of-trustees">
+     <div class="row my-4">
+      <div class="col-12 text-center">
+       <h2>
+        Board of Trustees
+       </h2>
+       <p class="people-intro">
+        The Board of Trustees provides governance, oversight and strategic guidance to iDEC in support of its charitable objectives.
+       </p>
+       <p class="people-intro">
+        iDEC is a Scottish Charitable Incorporated Organisation (SCIO), registered in Scotland with charity number SC050826. Further information is available on the
+        <a href="https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC050826" rel="noopener noreferrer" target="_blank">
+         Scottish Charity Register</a>.
+       </p>
+      </div>
+     </div>
+     <div class="row justify-content-center">
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card trustee-card">
+        <img alt="Prof Tom Ellis" loading="lazy" src="../img/headshots/tom_ellis_c.png"/>
+        <span class="name">
+         Prof Tom Ellis
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card trustee-card">
+        <img alt="Shan Jiang" loading="lazy" src="../img/headshots/shan_jiang_c.png"/>
+        <span class="name">
+         Shan Jiang
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card trustee-card">
+        <img alt="Prof Chang Liu" loading="lazy" src="../img/headshots/chang_liu_c.png"/>
+        <span class="name">
+         Prof Chang Liu
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card trustee-card">
+        <img alt="Dr Ella Watkins-Dulaney" loading="lazy" src="../img/headshots/dr._ella_watkins-dulaney.jpg"/>
+        <span class="name">
+         Dr Ella Watkins-Dulaney
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card trustee-card">
+        <img alt="Dr Joanna Sadler" loading="lazy" src="../img/headshots/Dr Joanna Sadler.png"/>
+        <span class="name">
+         Dr Joanna Sadler
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card trustee-card">
+        <img alt="Prof Chris French" loading="lazy" src="../img/headshots/chris_french_c.png"/>
+        <span class="name">
+         Prof Chris French
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card trustee-card">
+        <img alt="Dr Zakir Tnimov" loading="lazy" src="../img/headshots/zakie_tnimov_c.png"/>
+        <span class="name">
+         Dr Zakir Tnimov
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card trustee-card">
+        <img alt="Dr Nadanai Laohakunakorn" loading="lazy" src="../img/headshots/nadanai_laohakunakorn.png"/>
+        <span class="name">
+         Dr Nadanai Laohakunakorn
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="people-section" id="our-team">
+     <div class="row my-4">
+      <div class="col-12 text-center">
+       <h2>
+        Our Team
+       </h2>
+      </div>
+     </div>
+     <div class="team-group">
+      <div class="row">
+       <div class="col-12 text-center">
+        <h3>
+         Digital Infrastructure
+        </h3>
+       </div>
+      </div>
+      <div class="row justify-content-center">
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Dr Trevor Y. H. Ho" loading="lazy" src="../img/headshots/trevor_ho_c.png"/>
+         <span class="name">
+          Dr Trevor Y. H. Ho
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Chong Teng" loading="lazy" src="../img/headshots/chong_teng_c.png"/>
+         <span class="name">
+          Chong Teng
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Yinan Ren" loading="lazy" src="../img/headshots/yinan_ren_c.png"/>
+         <span class="name">
+          Yinan Ren
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Katherine Martin" loading="lazy" src="../img/headshots/katherine_martin_c.png"/>
+         <span class="name">
+          Katherine Martin
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="team-group">
+      <div class="row">
+       <div class="col-12 text-center">
+        <h3>
+         Events
+        </h3>
+       </div>
+      </div>
+      <div class="row justify-content-center">
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Yuancheng Ding" loading="lazy" src="../img/headshots/Yuancheng Ding.png"/>
+         <span class="name">
+          Yuancheng Ding
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Swaranjeet Singh" loading="lazy" src="../img/headshots/Swaranjeet Singh.png"/>
+         <span class="name">
+          Swaranjeet Singh
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="team-group">
+      <div class="row">
+       <div class="col-12 text-center">
+        <h3>
+         Outreach &amp; Partnerships
+        </h3>
+       </div>
+      </div>
+      <div class="row justify-content-center">
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Nan Wang" loading="lazy" src="../img/headshots/nan wang_c.jpg"/>
+         <span class="name">
+          Nan Wang
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Wei Miao" loading="lazy" src="../img/headshots/Wei Miao.jpg"/>
+         <span class="name">
+          Wei Miao
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Fankang Meng" loading="lazy" src="../img/headshots/fankang-meng_c.png"/>
+         <span class="name">
+          Fankang Meng
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Jiayi Zeng" loading="lazy" src="../img/headshots/jiayi_zeng_c.png"/>
+         <span class="name">
+          Jiayi Zeng
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Stefan Bassler" loading="lazy" src="../img/headshots/Stefan Bassler_C.png"/>
+         <span class="name">
+          Stefan Bassler
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="team-group">
+      <div class="row">
+       <div class="col-12 text-center">
+        <h3>
+         Art &amp; Creative
+        </h3>
+       </div>
+      </div>
+      <div class="row justify-content-center">
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Yvonne Yan" loading="lazy" src="../img/headshots/Yvonne Yan.jpg"/>
+         <span class="name">
+          Yvonne Yan
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Kening Chen" loading="lazy" src="../img/headshots/kening_chen_c.png"/>
+         <span class="name">
+          Kening Chen
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Tong Lyu" loading="lazy" src="../img/headshots/tong_lyu_c.png"/>
+         <span class="name">
+          Tong Lyu
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="team-group">
+      <div class="row">
+       <div class="col-12 text-center">
+        <h3>
+         Ethics, Biosafety, and Biosecurity
+        </h3>
+       </div>
+      </div>
+      <div class="row justify-content-center">
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Dr Svenja Vinke" loading="lazy" src="../img/headshots/svenja_vinke_c.png"/>
+         <span class="name">
+          Dr Svenja Vinke
+         </span>
+        </div>
+       </div>
+       <div class="col-auto mb-4 text-center">
+        <div class="people-card">
+         <img alt="Gokul Bhaskaran" loading="lazy" src="../img/headshots/Gokul Bhaskaran_C.png"/>
+         <span class="name">
+          Gokul Bhaskaran
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- Advisory Board
+           Reserved for future external advisors. Keep hidden until appointments are confirmed.
+      -->
+    <div class="people-section alumni-section" id="alumni">
+     <div class="row my-4">
+      <div class="col-12 text-center">
+       <h2>
+        Alumni
+       </h2>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-12 text-center">
+       <h3>
+        Former Trustees
+       </h3>
+      </div>
+     </div>
+     <div class="row justify-content-center alumni-grid former-trustees-grid">
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card former-trustee-card">
+        <img alt="Prof Jamie Davies" loading="lazy" src="../img/headshots/jamie_davies_c.png"/>
+        <span class="name">
+         Prof Jamie Davies
+        </span>
+        <span class="role">
+         Former Trustee
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card former-trustee-card">
+        <img alt="Prof Ye Chen" loading="lazy" src="../img/headshots/ye_chen_c.png"/>
+        <span class="name">
+         Prof Ye Chen
+        </span>
+        <span class="role">
+         Former Trustee
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="row mt-4">
+      <div class="col-12 text-center">
+       <h3>
+        Alumni &amp; Former Contributors
+       </h3>
+      </div>
+     </div>
+     <div class="row justify-content-center alumni-grid">
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Dr Felipe A. Millacura" loading="lazy" src="../img/headshots/felipe_millacura.jpg"/>
+        <span class="name">
+         Dr Felipe A. Millacura
+        </span>
+        <span class="role">
+         Web team leader &amp; engineer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Ruonan Tian" loading="lazy" src="../img/headshots/rounan_tian_c.png"/>
+        <span class="name">
+         Ruonan Tian
+        </span>
+        <span class="role">
+         Web engineer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Samuel Shum" loading="lazy" src="../img/headshots/Samuel Shum_C.png"/>
+        <span class="name">
+         Samuel Shum
+        </span>
+        <span class="role">
+         Web engineer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Lucy Song" loading="lazy" src="../img/headshots/Lucy Song_C.png"/>
+        <span class="name">
+         Lucy Song
+        </span>
+        <span class="role">
+         Web engineer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Mingzhe Chen" loading="lazy" src="../img/headshots/mingzhe_chen_c.png"/>
+        <span class="name">
+         Mingzhe Chen
+        </span>
+        <span class="role">
+         Sponsorship assistant
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Dr Isaac Larkin" loading="lazy" src="../img/headshots/isaac_larkin_c.png"/>
+        <span class="name">
+         Dr Isaac Larkin
+        </span>
+        <span class="role">
+         Sponsorship planner
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Junhao Lu" loading="lazy" src="../img/headshots/junhao_lu_c.png"/>
+        <span class="name">
+         Junhao Lu
+        </span>
+        <span class="role">
+         Sponsorship assistant &amp; Event designer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Alex Perkins" loading="lazy" src="../img/headshots/alex_perkins_c.png"/>
+        <span class="name">
+         Alex Perkins
+        </span>
+        <span class="role">
+         Event designer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Huandi Xu" loading="lazy" src="../img/headshots/huandi_xu_c.png"/>
+        <span class="name">
+         Huandi Xu
+        </span>
+        <span class="role">
+         Promotion team leader
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Dr Shiyuan Li" loading="lazy" src="../img/headshots/Dr. Shiyuan Li_C.png"/>
+        <span class="name">
+         Dr Shiyuan Li
+        </span>
+        <span class="role">
+         Promotion assistant
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Heyuan Ni" loading="lazy" src="../img/headshots/Heyuan Ni_C.png"/>
+        <span class="name">
+         Heyuan Ni
+        </span>
+        <span class="role">
+         Promotion assistant
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Dr Yeqing Zong" loading="lazy" src="../img/headshots/Dr. Yeqing Zong_C.png"/>
+        <span class="name">
+         Dr Yeqing Zong
+        </span>
+        <span class="role">
+         Promotion assistant
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Dr Josh Atkinson" loading="lazy" src="../img/headshots/joshua_atkinson_c.png"/>
+        <span class="name">
+         Dr Josh Atkinson
+        </span>
+        <span class="role">
+         DE community designer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Dr Diego Pesce" loading="lazy" src="../img/headshots/diego_pesce_c.png"/>
+        <span class="name">
+         Dr Diego Pesce
+        </span>
+        <span class="role">
+         DE community designer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Levin Joe Klages" loading="lazy" src="../img/headshots/Levin Joe Klages_C.png"/>
+        <span class="name">
+         Levin Joe Klages
+        </span>
+        <span class="role">
+         Ethics, Biosafety, and Biosecurity commissioner
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Irina Rais" loading="lazy" src="../img/headshots/Irina Rais_C.png"/>
+        <span class="name">
+         Irina Rais
+        </span>
+        <span class="role">
+         Ethics, Biosafety, and Biosecurity commissioner
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Cau&atilde; Westmann" loading="lazy" src="../img/headshots/caua_westmann_c.png"/>
+        <span class="name">
+         Cau&atilde; Westmann
+        </span>
+        <span class="role">
+         DE community designer
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="get-involved" id="get-involved">
+     <h2>
+      Get involved with iDEC
+     </h2>
+     <p>
+      Join our international community and contribute to the development of directed evolution through competition, mentorship, collaboration and support.
+     </p>
+     <p class="get-involved-links">
+      Compete &middot; Mentor &middot; Collaborate &middot; Support
+     </p>
+     <p>
+      For general enquiries, contact
+      <a href="mailto:support@idechq.org"> support@idechq.org</a>.
+     </p>
+    </div>
+    <div class="row my-4">
+     <div class="col-12">
+      <hr style="border-color:#2a206a; border-width: 3px;"/>
+     </div>
+    </div>
+    <div class="row my-4">
+     <div class="col-12 text-center">
+      <h2 id="equality-and-diversity">
+       Equality and Diversity Policy
+      </h2>
+     </div>
+    </div>
+    <div class="row my-4">
+     <div class="col-12 my-2 text-center">
+      <h2>
+       Our Goal
+      </h2>
+     </div>
+     <div class="col-lg-8 offset-lg-2">
+      <p>
+       The iDEC HQ is committed to creating an equal, cooperative environment so that all members can enjoy a safe
+            and warm atmosphere. We oppose discrimination of any kind and no discriminatory behavior will be tolerated
+            by the iDEC HQ.
+      </p>
+     </div>
+    </div>
+    <div class="row my-4">
+     <div class="col-12 my-2 text-center">
+      <h2>
+       Code of Practice
+      </h2>
+     </div>
+     <div class="col-lg-8 offset-lg-2">
+      <ul class="text-list">
+       <li>
+        We will have systems in place to ensure that every member of iDEC HQ enjoys the
+              same rights to express opinions publicly.
+       </li>
+       <li>
+        The iDEC HQ will ensure that the HQ members have the right to participate in the
+              work meeting of any group and consult on the relevant content of the meeting.
+       </li>
+       <li>
+        We plan to arrange training to help new members understand the underlying causes of
+              discrimination and to advocate measures that prevent discrimination.
+       </li>
+       <li>
+        We promise to consider the needs of different individuals based on age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, and sexual orientation in our work and will arrange flexible
+              work requirements according to those needs.
+       </li>
+       <li>
+        We do not tolerate harassment and discrimination of any kind. We will set up a
+              grievance-handling channel and ensure that inappropriate behavior will be penalized.
+       </li>
+       <li>
+        Members who, under unfortunate circumstances, experience harassment or
+              discrimination in the competition are encouraged to file a complaint to their supervisors. If the issue
+              cannot be resolved, the iDEC Executive Committee will step in and make a final decision.
+       </li>
+       <li>
+        The equality and diversity policy will be explained to every HQ member.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="row my-4">
+     <div class="col-12 my-2 text-center">
+      <h2>
+       Code of Conduct
+      </h2>
+     </div>
+     <div class="col-lg-8 offset-lg-2">
+      <ul class="text-list">
+       <li>
+        All HQ members, regardless of age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, and sexual orientation, should not be subjected to derogatory, mocking, or offensive jokes in
+              communication.
+       </li>
+       <li>
+        At the iDEC HQ, no one should use age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, and sexual orientation as reasons to make negative comments, harassment, or other unfavorable
+              behavior against one another.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="row my-4">
+     <div class="col-12 my-2 text-center">
+      <h2>
+       Handling Complaints
+      </h2>
+     </div>
+     <div class="col-lg-8 offset-lg-2">
+      <ul class="text-list">
+       <li>
+        The iDEC Executive Committee is responsible for responding and handling all
+              complaints. The Executive Committee shall assign a supervisor to be responsible for handling complaints.
+       </li>
+       <li>
+        The communication process between the complainant and the supervisor will be
+              carried out under safe and confidential conditions.
+       </li>
+       <li>
+        Access to complaint content and records is limited to the Executive Committee
+              members that exclude all relevant parties and other stakeholders.
+       </li>
+       <li>
+        The committee shall decide on the measures to be taken based on the principle of
+              safeguarding the safety and sustainable development of the victims.
+       </li>
+       <li>
+        Persons who have a conflict of interest with the complaint shall not intervene in
+              the complaint case handling process.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="row my-4">
+     <div class="col-12 my-2 text-center">
+      <h2>
+       Policy Review
+      </h2>
+     </div>
+     <div class="col-lg-8 offset-lg-2 mt-2 text-center">
+      <p>
+       This policy will be reviewed every year.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <footer class="py-5 card-footer text-center">
+   <div class="container text-white">
+    <div class="col-lg-8 offset-lg-2">
+     <p>
+      iDEC was born in Edinburgh, which is to commemorate the adventurous voyage of Charles Darwin, an outstanding
+          alumnus of the University of Edinburgh.
+     </p>
+     <div class="mx-auto text-center">
+      <a class="icon-button facebook" href="https://www.facebook.com/InternationalDirectedEvolutionCompetition">
+       <i class="fa fa-facebook">
+       </i>
+       <span>
+       </span>
+      </a>
+      <a class="icon-button instagram" href="https://www.instagram.com/idechq/">
+       <i class="fa fa-instagram">
+       </i>
+       <span>
+       </span>
+      </a>
+      <a class="icon-button twitter" href="https://twitter.com/iDEC2021">
+       <i class="fa fa-twitter">
+       </i>
+       <span>
+       </span>
+      </a>
+      <a class="icon-button linkedin" href="https://www.linkedin.com/company/international-directed-evolution-competition%EF%BC%88idec%EF%BC%89/">
+       <i class="fa fa-linkedin">
+       </i>
+       <span>
+       </span>
+      </a>
+      <a class="icon-button youtube" href="https://www.youtube.com/channel/UC_qBQm9YArg8rK4oWO63_gQ">
+       <i class="fa fa-youtube">
+       </i>
+       <span>
+       </span>
+      </a>
+      <a class="icon-button github" href="https://github.com/idechq">
+       <i class="fa fa-github">
+       </i>
+       <span>
+       </span>
+      </a>
+     </div>
+     <p class="text-white-50">
+      The International Directed Evolution Competition (iDEC) is a Scottish Charitable
+          Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+     </p>
+     <p class="text-white-50">
+      Copyright &copy;2026 iDEC. All rights reserved.
+     </p>
+    </div>
+   </div>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../js/jquery-3.4.1.min.js">
+  </script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/popper.min.js">
+  </script>
+  <script src="../js/bootstrap-4.4.1.js">
+  </script>
+  <script src="../js/main.js">
+  </script>
+  <script src="../js/url.js">
+  </script>
+  <script crossorigin="anonymous" src="../js/2a0c96cd0e.js">
+  </script>
+ </body>
+</html>
