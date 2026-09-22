@@ -186,32 +186,6 @@
     .get-involved {
       text-align: center;
     }
-   /* Active Our Team portraits, including members moved back from Alumni */
-    #our-team .people-card img {
-      width: 135px;
-      height: 135px;
-      object-fit: cover;
-      border-radius: 50%;
-    }
-  
-    /* Our Team alignment only — portrait and name share the same centre axis */
-    #our-team .people-card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-
-    #our-team .people-card .name {
-      width: 100%;
-      text-align: center;
-    }
-
-    #our-team .team-group > .row.justify-content-center > [class*="col-"] {
-      display: flex;
-      justify-content: center;
-    }
-
   </style>
  </head>
  <body>
@@ -407,6 +381,7 @@
       <p>
        Our ethos is
        <strong>Innovation, Diversity, Equality, Co-construction &amp; Co-operation</strong>.
+      
       </p>
      </div>
     </div>
@@ -537,7 +512,9 @@
        <p class="people-intro">
         iDEC is a Scottish Charitable Incorporated Organisation (SCIO), registered in Scotland with charity number SC050826. Further information is available on the
         <a href="https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC050826" rel="noopener noreferrer" target="_blank">
-         Scottish Charity Register</a>.
+         Scottish Charity Register.
+        </a>
+        
        </p>
       </div>
      </div>
@@ -649,14 +626,6 @@
          </span>
         </div>
        </div>
-       <div class="col-auto mb-4 text-center">
-        <div class="people-card">
-         <img alt="Katherine Martin" loading="lazy" src="../img/headshots/katherine_martin_c.png"/>
-         <span class="name">
-          Katherine Martin
-         </span>
-        </div>
-       </div>
       </div>
      </div>
      <div class="team-group">
@@ -719,22 +688,6 @@
          </span>
         </div>
        </div>
-       <div class="col-auto mb-4 text-center">
-        <div class="people-card">
-         <img alt="Jiayi Zeng" loading="lazy" src="../img/headshots/jiayi_zeng_c.png"/>
-         <span class="name">
-          Jiayi Zeng
-         </span>
-        </div>
-       </div>
-       <div class="col-auto mb-4 text-center">
-        <div class="people-card">
-         <img alt="Stefan Bassler" loading="lazy" src="../img/headshots/Stefan Bassler_C.png"/>
-         <span class="name">
-          Stefan Bassler
-         </span>
-        </div>
-       </div>
       </div>
      </div>
      <div class="team-group">
@@ -754,22 +707,6 @@
          </span>
         </div>
        </div>
-       <div class="col-auto mb-4 text-center">
-        <div class="people-card">
-         <img alt="Kening Chen" loading="lazy" src="../img/headshots/kening_chen_c.png"/>
-         <span class="name">
-          Kening Chen
-         </span>
-        </div>
-       </div>
-       <div class="col-auto mb-4 text-center">
-        <div class="people-card">
-         <img alt="Tong Lyu" loading="lazy" src="../img/headshots/tong_lyu_c.png"/>
-         <span class="name">
-          Tong Lyu
-         </span>
-        </div>
-       </div>
       </div>
      </div>
      <div class="team-group">
@@ -786,14 +723,6 @@
          <img alt="Dr Svenja Vinke" loading="lazy" src="../img/headshots/svenja_vinke_c.png"/>
          <span class="name">
           Dr Svenja Vinke
-         </span>
-        </div>
-       </div>
-       <div class="col-auto mb-4 text-center">
-        <div class="people-card">
-         <img alt="Gokul Bhaskaran" loading="lazy" src="../img/headshots/Gokul Bhaskaran_C.png"/>
-         <span class="name">
-          Gokul Bhaskaran
          </span>
         </div>
        </div>
@@ -850,6 +779,17 @@
       </div>
      </div>
      <div class="row justify-content-center alumni-grid">
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Katherine Martin" loading="lazy" src="../img/headshots/katherine_martin_c.png"/>
+        <span class="name">
+         Katherine Martin
+        </span>
+        <span class="role">
+         Web engineer &amp; editor
+        </span>
+       </div>
+      </div>
       <div class="col-auto mb-4 text-center">
        <div class="people-card alumni-card">
         <img alt="Dr Felipe A. Millacura" loading="lazy" src="../img/headshots/felipe_millacura.jpg"/>
@@ -940,12 +880,56 @@
       </div>
       <div class="col-auto mb-4 text-center">
        <div class="people-card alumni-card">
+        <img alt="Jiayi Zeng" loading="lazy" src="../img/headshots/jiayi_zeng_c.png"/>
+        <span class="name">
+         Jiayi Zeng
+        </span>
+        <span class="role">
+         Sponsorship assistant
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Kening Chen" loading="lazy" src="../img/headshots/kening_chen_c.png"/>
+        <span class="name">
+         Kening Chen
+        </span>
+        <span class="role">
+         Art designer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Tong Lyu" loading="lazy" src="../img/headshots/tong_lyu_c.png"/>
+        <span class="name">
+         Tong Lyu
+        </span>
+        <span class="role">
+         Art designer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
         <img alt="Huandi Xu" loading="lazy" src="../img/headshots/huandi_xu_c.png"/>
         <span class="name">
          Huandi Xu
         </span>
         <span class="role">
          Promotion team leader
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
+        <img alt="Stefan Bassler" loading="lazy" src="../img/headshots/Stefan Bassler_C.png"/>
+        <span class="name">
+         Stefan Bassler
+        </span>
+        <span class="role">
+         Promotion Ambassador
         </span>
        </div>
       </div>
@@ -1006,6 +990,17 @@
       </div>
       <div class="col-auto mb-4 text-center">
        <div class="people-card alumni-card">
+        <img alt="Gokul Bhaskaran" loading="lazy" src="../img/headshots/Gokul Bhaskaran_C.png"/>
+        <span class="name">
+         Gokul Bhaskaran
+        </span>
+        <span class="role">
+         Ethics, Biosafety, and Biosecurity commissioner &amp; Regional Public Relations Officer
+        </span>
+       </div>
+      </div>
+      <div class="col-auto mb-4 text-center">
+       <div class="people-card alumni-card">
         <img alt="Levin Joe Klages" loading="lazy" src="../img/headshots/Levin Joe Klages_C.png"/>
         <span class="name">
          Levin Joe Klages
@@ -1051,7 +1046,8 @@
      </p>
      <p>
       For general enquiries, contact
-      <a href="mailto:support@idechq.org"> support@idechq.org</a>.
+      <a href="mailto:support@idechq.org">
+       support@idechq.org
      </p>
     </div>
     <div class="row my-4">
