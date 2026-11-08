@@ -1,61 +1,71 @@
 var teamInfo = {
-  "OUC-Marine_drugs": {
-    "name": "OUC-Marine Drugs",
-    "reportID" : "1QQGEIJIC94H",
+  "Cambridge": {
+    "name": "Cambridge",
+    "reportID" : "IY3YBJIG34T6",
   },
-  "PIM-VCA": {
-    "name": "PIM-VCA",
-    "reportID" : "29SYDHDA85W1",
+  "McMasterU": {
+    "name": "McMasterU",
+    "reportID" : "8OLRUWD0NLWF",
+  },
+  "NEFU-China": {
+    "name": "NEFU-China",
+    "reportID" : "GT8ZFR80KE9V",
+  },
+  "LZU-CHINA": {
+    "name": "LZU-CHINA",
+    "reportID" : "PT7SUVEH8LZH",
+  },
+  "LZU-GANSU": {
+    "name": "LZU-GANSU",
+    "reportID" : "Z8CTX43VXV9B",
   },
   "PIM-NEBS": {
     "name": "PIM-NEBS",
-    "reportID" : "3OSN8LFTRVA6",
+    "reportID" : "IR2CHV8KMGCL",
   },
-  "OUC-DE": {
-    "name": "OUC-DE",
-    "reportID" : "4D3XOJ4S1IW4",
-  },
-  "OncoStrat_NMU": {
-    "name": "OncoStrat_NMU",
-    "reportID" : "51WDA5GHSKBM",
-  },
-  "McMaster_BioDesign": {
-    "name": "McMaster BioDesign",
-    "reportID" : "68GY3U1QUZPS",
-  },
-  "CPU_CHINA": {
-    "name": "CPU_CHINA",
-    "reportID" : "7VS6OXYLFZH2",
-  },
-  "Evolution_Suisse_2025": {
-    "name": "Evolution Suisse 2025",
-    "reportID": "8I2EJYK5SXGI",
+  "Evolution_Suisse_2026": {
+    "name": "Evolution Suisse 2026",
+    "reportID" : "5GZOZ9VACVU3",
   },
   "Edinburgh": {
     "name": "Edinburgh",
-    "reportID" : "9IIQRQ00VV3D",
+    "reportID": "MF9QQDOXBC9K",
   },
-  "NEFU-China": {
-    "name": "NEFU_China",
-    "reportID" : "1019MXXEN2MH",
+  "VCA-Prudens": {
+    "name": "VCA-Prudens",
+    "reportID" : "JXP3FG996ZAJ",
   },
-  "LZDX": {
-    "name": "LZDX",
-    "reportID" : "11FE5WA8HLYR",
-  },
-  "LZU-MEDICINE-CHINA": {
-    "name": "LZU-MEDICINE-CHINA",
-    "reportID" : "12I9HBUOE52J",
+  "OUC-DE": {
+    "name": "OUC-DE",
+    "wikiID" : "",
+    "reportID" : "",
   },
   "SynthImmunol_NMU": {
     "name": "SynthImmunol_NMU",
-    "reportID" : "13FWQE3XNLNO",
-  }
+    "wikiID" : "",
+    "reportID" : "",
+  },
 };
 
 function updateTeamInfoModal(id) {
-  document.querySelector('#teamInfoModalLabel').innerHTML = teamInfo[id].name;
-  document.querySelector('#teamWikiLink').setAttribute('href', `https://idec-teams.github.io/2025_${id}`);
-  document.querySelector('#teamReportLink').setAttribute('href', `https://arxiv.idec.io/article/${teamInfo[id].reportID}`);
+  const info = teamInfo[id];
+  document.querySelector('#teamInfoModalLabel').innerHTML = info.name;
+
+  const wikiID = info.wikiID === undefined ? id : info.wikiID;
+  const wikiWrapper = document.querySelector('#teamWikiWrapper');
+  if (wikiID) {
+    wikiWrapper.style.display = '';
+    document.querySelector('#teamWikiLink').setAttribute('href', `https://idec-teams.github.io/2026_${wikiID}`);
+  } else {
+    wikiWrapper.style.display = 'none';
+  }
+
+  const reportWrapper = document.querySelector('#teamReportWrapper');
+  if (info.reportID) {
+    reportWrapper.style.display = '';
+    document.querySelector('#teamReportLink').setAttribute('href', `https://arxiv.idec.io/article/${info.reportID}`);
+  } else {
+    reportWrapper.style.display = 'none';
+  }
 }
 
