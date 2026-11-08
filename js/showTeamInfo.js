@@ -40,8 +40,8 @@ var teamInfo = {
     "wikiID" : "",
     "reportID" : "",
   },
-  "SynthImmunol_NMU": {
-    "name": "SynthImmunol_NMU",
+  "SynthImmunol": {
+    "name": "SynthImmunol",
     "wikiID" : "",
     "reportID" : "",
   },
