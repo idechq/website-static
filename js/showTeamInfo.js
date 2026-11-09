@@ -24,7 +24,7 @@ var teamInfo = {
     "reportID" : "IR2CHV8KMGCL",
   },
   "Evolution_Suisse_2026": {
-    "name": "Evolution Suisse 2026",
+    "name": "Evolution_Suisse_2026",
     "reportID" : "5GZOZ9VACVU3",
   },
   "Edinburgh": {
