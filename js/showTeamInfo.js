@@ -16,7 +16,7 @@ var teamInfo = {
     "reportID" : "PT7SUVEH8LZH",
   },
   "LZU_GANSU": {
-    "name": "LZU_GANSU",
+    "name": "LZU GANSU",
     "reportID" : "Z8CTX43VXV9B",
   },
   "PIM-NEBS": {
