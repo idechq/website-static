@@ -784,6 +784,11 @@ ol.text-list li ul li::marker {
 
 /* Links for Team Names (Results Page)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.team-name {
+  display: inline-block;
+  white-space: nowrap;
+}
+
 .team-name:hover {
   text-decoration: underline !important;
   cursor: pointer !important;
